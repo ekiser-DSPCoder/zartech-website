@@ -4,8 +4,8 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Zartech - Portfolio',
-  description: 'Personal portfolio showcasing projects, publications, and professional experience.',
+  title: 'R. Eric Kiser - Cybersecurity Professional',
+  description: 'Certified Information Security Manager with 10+ years of experience in cybersecurity, penetration testing, and security education.',
 };
 
 export default function RootLayout({

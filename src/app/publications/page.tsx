@@ -1,64 +1,55 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Publications - Zartech',
-  description: 'Read my articles and stories on Medium covering software development, technology, and more.',
+  title: 'Publications - R. Eric Kiser',
+  description: 'Read my articles on Medium covering cybersecurity, penetration testing, and information security.',
 };
 
 const publications = [
   {
-    title: 'Building Scalable Applications with Next.js 14',
+    title: 'Attending CruiseCon 2025',
     description:
-      'A comprehensive guide to building production-ready applications using the latest features of Next.js, including the App Router and Server Components.',
-    date: '2024-01-15',
-    readTime: '12 min read',
-    tags: ['Next.js', 'React', 'Web Development'],
-    url: 'https://medium.com',
-  },
-  {
-    title: 'The Art of Clean Code: Best Practices for Maintainable Software',
-    description:
-      'Exploring principles and patterns that help create code that is easy to read, understand, and maintain over time.',
-    date: '2023-12-20',
+      'A cybersecurity review of Ira Winkler\'s latest venture. An incredible experience that exceeded expectations, focusing on real conversations and meaningful connections within the IT security community.',
+    date: '2025-02-15',
     readTime: '8 min read',
-    tags: ['Clean Code', 'Best Practices', 'Software Engineering'],
-    url: 'https://medium.com',
+    tags: ['Cybersecurity', 'Conferences', 'Networking'],
+    url: 'https://medium.com/@ekiser_48014/attending-cruisecon-2025-b059729be6e9',
   },
   {
-    title: 'Understanding TypeScript Generics: A Practical Guide',
+    title: 'PowerShell System Port Scans',
     description:
-      'Demystifying TypeScript generics with real-world examples and use cases that you can apply in your projects today.',
-    date: '2023-11-10',
+      'Exploring PowerShell techniques for penetration testing, including how organizations can detect and defend against port scanning activities with endpoint security measures.',
+    date: '2024-06-10',
     readTime: '10 min read',
-    tags: ['TypeScript', 'JavaScript', 'Tutorial'],
-    url: 'https://medium.com',
+    tags: ['PowerShell', 'Penetration Testing', 'Security'],
+    url: 'https://medium.com/@ekiser_48014/powershell-system-port-scans-d9299a9e8962',
   },
   {
-    title: 'From Monolith to Microservices: Lessons Learned',
+    title: 'The ROI On Enterprise Attack Simulation',
     description:
-      'Sharing insights and challenges from migrating a large monolithic application to a microservices architecture.',
-    date: '2023-10-05',
-    readTime: '15 min read',
-    tags: ['Architecture', 'Microservices', 'DevOps'],
-    url: 'https://medium.com',
+      'Discussing how penetration testing is increasingly recognized not just as a cost but as a strategic investment that can yield substantial returns for organizations.',
+    date: '2024-04-20',
+    readTime: '12 min read',
+    tags: ['Attack Simulation', 'ROI', 'Enterprise Security'],
+    url: 'https://medium.com/@ekiser_48014/the-roi-one-enterprise-attack-simulation-6c8bbf5083da',
   },
   {
-    title: 'Mastering Git: Advanced Workflows for Teams',
+    title: 'Is Cybersecurity Recession Proof?',
     description:
-      'Going beyond the basics of Git to explore advanced workflows, branching strategies, and collaboration techniques.',
-    date: '2023-09-18',
-    readTime: '11 min read',
-    tags: ['Git', 'DevOps', 'Collaboration'],
-    url: 'https://medium.com',
+      'Analyzing whether cybersecurity careers remain stable during economic downturns. While some organizations may cut spending, demand for security professionals persists across the board.',
+    date: '2024-02-15',
+    readTime: '7 min read',
+    tags: ['Careers', 'Cybersecurity', 'Industry Trends'],
+    url: 'https://medium.com/@ekiser_48014/is-cybersecurity-recession-proof-b5af61690508',
   },
   {
-    title: 'Introduction to Testing in Modern JavaScript',
+    title: 'Cyber Incident Response Workflow Diagraming Tools',
     description:
-      'A beginner-friendly guide to testing JavaScript applications using Jest, React Testing Library, and Cypress.',
-    date: '2023-08-25',
+      'A comprehensive review of tools and techniques for documenting and visualizing incident response workflows to improve team coordination and response times.',
+    date: '2023-11-08',
     readTime: '9 min read',
-    tags: ['Testing', 'JavaScript', 'Tutorial'],
-    url: 'https://medium.com',
+    tags: ['Incident Response', 'Tools', 'Workflow'],
+    url: 'https://medium.com/@ekiser_48014/cyber-incident-response-workflow-diagraming-tools-7ca4a2445bb2',
   },
 ];
 
@@ -78,15 +69,15 @@ export default function Publications() {
         <div className="text-center mb-16">
           <h1 className="section-heading mb-4">Publications</h1>
           <p className="text-lg text-primary-600 dark:text-primary-300 max-w-2xl mx-auto">
-            Articles and stories I&apos;ve written on Medium. I write about software development,
-            technology, and lessons learned along the way.
+            Articles I&apos;ve written on Medium covering cybersecurity, penetration testing,
+            incident response, and industry insights.
           </p>
         </div>
 
         {/* Medium Link */}
         <div className="flex justify-center mb-12">
           <a
-            href="https://medium.com/@your-username"
+            href="https://medium.com/@ekiser_48014"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 bg-[#000000] text-white rounded-lg hover:bg-gray-800 transition-colors"
@@ -166,11 +157,11 @@ export default function Publications() {
               Stay Updated
             </h2>
             <p className="text-primary-100 mb-6 max-w-xl mx-auto">
-              Follow me on Medium to get notified when I publish new articles about software
-              development, technology, and more.
+              Follow me on Medium to get notified when I publish new articles about cybersecurity,
+              penetration testing, and information security.
             </p>
             <a
-              href="https://medium.com/@your-username"
+              href="https://medium.com/@ekiser_48014"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-primary-700 bg-white rounded-lg shadow-lg hover:bg-primary-50 transition-all duration-300"

@@ -184,12 +184,12 @@ export default function Contact() {
                   <div>
                     <h3 className="font-semibold text-primary-900 dark:text-white">GitHub</h3>
                     <a
-                      href="https://github.com"
+                      href="https://github.com/ekiser-DSPCoder"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-primary-600 dark:text-primary-300 hover:text-accent-600 dark:hover:text-accent-400 transition-colors"
                     >
-                      github.com/username
+                      github.com/ekiser-DSPCoder
                     </a>
                   </div>
                 </div>
@@ -202,12 +202,12 @@ export default function Contact() {
                   <div>
                     <h3 className="font-semibold text-primary-900 dark:text-white">LinkedIn</h3>
                     <a
-                      href="https://linkedin.com"
+                      href="https://linkedin.com/in/rekiser"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-primary-600 dark:text-primary-300 hover:text-accent-600 dark:hover:text-accent-400 transition-colors"
                     >
-                      linkedin.com/in/username
+                      linkedin.com/in/rekiser
                     </a>
                   </div>
                 </div>
@@ -220,12 +220,12 @@ export default function Contact() {
                   <div>
                     <h3 className="font-semibold text-primary-900 dark:text-white">Medium</h3>
                     <a
-                      href="https://medium.com"
+                      href="https://medium.com/@ekiser_48014"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-primary-600 dark:text-primary-300 hover:text-accent-600 dark:hover:text-accent-400 transition-colors"
                     >
-                      medium.com/@username
+                      medium.com/@ekiser_48014
                     </a>
                   </div>
                 </div>
@@ -248,20 +248,20 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-primary-900 dark:text-white mb-1">
-                    Are you available for freelance work?
+                    Do you offer security consulting?
                   </h3>
                   <p className="text-primary-600 dark:text-primary-300 text-sm">
-                    It depends on my current workload. Feel free to reach out with details about
-                    your project.
+                    Yes, I provide cybersecurity consulting services. Reach out with details about
+                    your security needs.
                   </p>
                 </div>
                 <div>
                   <h3 className="font-semibold text-primary-900 dark:text-white mb-1">
-                    Do you offer consulting services?
+                    Do you offer security training?
                   </h3>
                   <p className="text-primary-600 dark:text-primary-300 text-sm">
-                    Yes, I offer technical consulting for web development projects. Let&apos;s
-                    discuss your needs.
+                    Yes, I develop and deliver security awareness and ethical hacking training.
+                    Let&apos;s discuss your requirements.
                   </p>
                 </div>
               </div>

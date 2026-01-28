@@ -14,14 +14,14 @@ export default function Home() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
             <span className="text-primary-900 dark:text-white">Hi, I&apos;m </span>
-            <span className="gradient-text">Zartech</span>
+            <span className="gradient-text">R. Eric Kiser</span>
           </h1>
           <p className="text-xl md:text-2xl text-primary-600 dark:text-primary-300 mb-8 max-w-2xl mx-auto">
-            Software Developer &amp; Technical Writer
+            Cybersecurity Professional &amp; Technical Writer
           </p>
           <p className="text-lg text-primary-500 dark:text-primary-400 mb-12 max-w-xl mx-auto">
-            Building innovative solutions and sharing knowledge through code and writing.
-            Passionate about creating impactful software and helping others learn.
+            Certified Information Security Manager with 10+ years of experience protecting organizations
+            and educating the next generation of security professionals.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/projects" className="btn-primary">
@@ -39,7 +39,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-heading text-center mb-12">What I Do</h2>
           <div className="grid md:grid-cols-3 gap-8">
-            {/* Development */}
+            {/* Security */}
             <div className="card p-8 text-center">
               <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-gradient-primary flex items-center justify-center">
                 <svg
@@ -52,16 +52,42 @@ export default function Home() {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth={2}
-                    d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
                   />
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-primary-900 dark:text-white mb-4">
-                Development
+                Information Security
               </h3>
               <p className="text-primary-600 dark:text-primary-300">
-                Building robust and scalable applications with modern technologies and best
-                practices.
+                Protecting organizations with comprehensive security strategies, vulnerability management,
+                and incident response.
+              </p>
+            </div>
+
+            {/* Education */}
+            <div className="card p-8 text-center">
+              <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-gradient-primary flex items-center justify-center">
+                <svg
+                  className="w-8 h-8 text-white"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+                  />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-primary-900 dark:text-white mb-4">
+                Security Education
+              </h3>
+              <p className="text-primary-600 dark:text-primary-300">
+                Developing ethical hacking courseware and training the next generation of cybersecurity
+                professionals.
               </p>
             </div>
 
@@ -86,34 +112,8 @@ export default function Home() {
                 Technical Writing
               </h3>
               <p className="text-primary-600 dark:text-primary-300">
-                Sharing knowledge and insights through articles and tutorials on Medium and other
-                platforms.
-              </p>
-            </div>
-
-            {/* Problem Solving */}
-            <div className="card p-8 text-center">
-              <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-gradient-primary flex items-center justify-center">
-                <svg
-                  className="w-8 h-8 text-white"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"
-                  />
-                </svg>
-              </div>
-              <h3 className="text-xl font-bold text-primary-900 dark:text-white mb-4">
-                Problem Solving
-              </h3>
-              <p className="text-primary-600 dark:text-primary-300">
-                Tackling complex challenges with creative and efficient solutions that make a real
-                impact.
+                Sharing cybersecurity insights and knowledge through articles on Medium and
+                industry publications.
               </p>
             </div>
           </div>

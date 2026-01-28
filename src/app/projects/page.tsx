@@ -2,60 +2,52 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Projects - Zartech',
-  description: 'Explore my portfolio of software development projects.',
+  title: 'Projects - R. Eric Kiser',
+  description: 'Explore my cybersecurity projects, courseware, and security initiatives.',
 };
 
 const projects = [
   {
-    title: 'Project Alpha',
+    title: 'Advanced Ethical Hacking Courseware',
     description:
-      'A full-stack web application built with Next.js and PostgreSQL. Features real-time updates, user authentication, and a beautiful responsive design.',
-    tags: ['Next.js', 'TypeScript', 'PostgreSQL', 'Tailwind CSS'],
-    github: 'https://github.com',
-    demo: 'https://example.com',
+      'Comprehensive ethical hacking curriculum developed for Virginia Cyber Range, covering penetration testing methodologies, vulnerability assessment, and hands-on security labs utilized by numerous students.',
+    tags: ['Education', 'Ethical Hacking', 'Curriculum Development', 'Security Training'],
     featured: true,
   },
   {
-    title: 'Data Visualizer',
+    title: 'Enterprise Security Program',
     description:
-      'An interactive data visualization dashboard that transforms complex datasets into beautiful, easy-to-understand charts and graphs.',
-    tags: ['React', 'D3.js', 'Node.js', 'MongoDB'],
-    github: 'https://github.com',
-    demo: 'https://example.com',
+      'Led the development and implementation of comprehensive information security programs for manufacturing environments, including vulnerability management, incident response, and security awareness training.',
+    tags: ['Security Management', 'Risk Assessment', 'Compliance', 'Policy Development'],
     featured: true,
   },
   {
-    title: 'API Gateway',
+    title: 'Attack Simulation Framework',
     description:
-      'A high-performance API gateway service that handles rate limiting, authentication, and request routing for microservices architecture.',
-    tags: ['Go', 'Redis', 'Docker', 'Kubernetes'],
-    github: 'https://github.com',
+      'Designed and deployed enterprise attack simulation initiatives to identify vulnerabilities and demonstrate ROI of security investments through measurable risk reduction metrics.',
+    tags: ['Penetration Testing', 'Red Team', 'Attack Simulation', 'Security Assessment'],
     featured: true,
   },
   {
-    title: 'CLI Tool Suite',
+    title: 'Incident Response Workflows',
     description:
-      'A collection of command-line tools that automate common development tasks and improve workflow efficiency.',
-    tags: ['Python', 'Click', 'Shell'],
-    github: 'https://github.com',
+      'Created standardized incident response workflow documentation and diagramming tools to improve team coordination and reduce response times during security incidents.',
+    tags: ['Incident Response', 'Documentation', 'Process Improvement'],
     featured: false,
   },
   {
-    title: 'Mobile App Template',
+    title: 'PowerShell Security Scripts',
     description:
-      'A starter template for React Native applications with pre-configured navigation, state management, and UI components.',
-    tags: ['React Native', 'Expo', 'TypeScript'],
-    github: 'https://github.com',
+      'Collection of PowerShell scripts for security assessments, including port scanning utilities and system enumeration tools for penetration testing engagements.',
+    tags: ['PowerShell', 'Automation', 'Security Tools'],
+    github: 'https://github.com/ekiser-DSPCoder',
     featured: false,
   },
   {
-    title: 'Documentation Site',
+    title: 'Security Awareness Training',
     description:
-      'A clean and modern documentation website generator with search functionality and dark mode support.',
-    tags: ['Astro', 'MDX', 'Algolia'],
-    github: 'https://github.com',
-    demo: 'https://example.com',
+      'Developed and delivered security awareness training programs for organizations, helping employees recognize and respond to social engineering and phishing attacks.',
+    tags: ['Training', 'Security Awareness', 'Phishing Prevention'],
     featured: false,
   },
 ];
@@ -71,8 +63,8 @@ export default function Projects() {
         <div className="text-center mb-16">
           <h1 className="section-heading mb-4">My Projects</h1>
           <p className="text-lg text-primary-600 dark:text-primary-300 max-w-2xl mx-auto">
-            A selection of projects I&apos;ve worked on. Each one represents a unique challenge and
-            learning opportunity.
+            A selection of cybersecurity initiatives, courseware, and security programs I&apos;ve
+            developed throughout my career.
           </p>
         </div>
 
@@ -236,7 +228,7 @@ export default function Projects() {
         {/* CTA */}
         <div className="mt-16 text-center">
           <p className="text-primary-600 dark:text-primary-300 mb-4">
-            Interested in collaborating on a project?
+            Interested in security consulting or training?
           </p>
           <Link href="/contact" className="btn-primary">
             Get In Touch

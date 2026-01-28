@@ -1,37 +1,37 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'About - Zartech',
-  description: 'Learn more about my background, skills, and experience.',
+  title: 'About - R. Eric Kiser',
+  description: 'Learn more about my background in cybersecurity, certifications, and experience.',
 };
 
 const skills = [
-  { category: 'Languages', items: ['TypeScript', 'JavaScript', 'Python', 'Go'] },
-  { category: 'Frontend', items: ['React', 'Next.js', 'Tailwind CSS', 'Vue.js'] },
-  { category: 'Backend', items: ['Node.js', 'Express', 'PostgreSQL', 'MongoDB'] },
-  { category: 'Tools', items: ['Git', 'Docker', 'AWS', 'Vercel'] },
+  { category: 'Security', items: ['Penetration Testing', 'Vulnerability Management', 'Incident Response', 'Risk Assessment'] },
+  { category: 'Certifications', items: ['CISM', 'Ethical Hacking', 'Security Management', 'IT Security'] },
+  { category: 'Tools', items: ['PowerShell', 'Network Security', 'SIEM', 'Attack Simulation'] },
+  { category: 'Education', items: ['Courseware Development', 'Training Delivery', 'Curriculum Design', 'Mentoring'] },
 ];
 
 const timeline = [
   {
-    year: '2024',
-    title: 'Senior Developer',
-    description: 'Leading development of scalable web applications and mentoring junior developers.',
+    year: 'Present',
+    title: 'Manager, IT Security - The Heritage Group',
+    description: 'Leading information technology security initiatives and protecting organizational assets.',
   },
   {
-    year: '2022',
-    title: 'Full Stack Developer',
-    description: 'Built end-to-end solutions for various clients across different industries.',
+    year: 'Previous',
+    title: 'Manager, IT Security - Albemarle',
+    description: 'Managed cybersecurity protocols within a manufacturing environment.',
   },
   {
-    year: '2020',
-    title: 'Started Technical Writing',
-    description: 'Began sharing knowledge through articles on Medium and technical documentation.',
+    year: 'Education',
+    title: 'Advanced Ethical Hacking Courseware Author - Virginia Cyber Range',
+    description: 'Designed and developed ethical hacking curriculum utilized by numerous students.',
   },
   {
-    year: '2018',
-    title: 'Started Coding Journey',
-    description: 'Discovered passion for programming and began learning software development.',
+    year: 'Teaching',
+    title: 'Course Instructor - Vanderbilt University',
+    description: 'Taught cybersecurity courses and mentored students in information security.',
   },
 ];
 
@@ -43,8 +43,8 @@ export default function About() {
         <div className="text-center mb-16">
           <h1 className="section-heading mb-4">About Me</h1>
           <p className="text-lg text-primary-600 dark:text-primary-300 max-w-2xl mx-auto">
-            A passionate developer and writer dedicated to building great software and sharing
-            knowledge.
+            A certified information security manager with over a decade of experience protecting
+            organizations and educating security professionals.
           </p>
         </div>
 
@@ -56,18 +56,19 @@ export default function About() {
             </h2>
             <div className="space-y-4 text-primary-600 dark:text-primary-300">
               <p>
-                I&apos;m a software developer with a passion for creating elegant solutions to
-                complex problems. My journey in tech started with curiosity and has evolved into a
-                fulfilling career building applications that make a difference.
+                I&apos;m a highly skilled Certified Information Security Manager (CISM) with over 10 years
+                of experience in the cybersecurity field. My expertise spans network security, vulnerability
+                management, penetration testing, and incident response.
               </p>
               <p>
-                Beyond coding, I enjoy sharing my knowledge through technical writing. I believe
-                that teaching is one of the best ways to deepen understanding and contribute to the
-                developer community.
+                I hold a Master of Science from EC-Council University and a Bachelor of Science from
+                Shippensburg University of Pennsylvania. My passion for security extends beyond protecting
+                organizations—I&apos;m dedicated to educating the next generation of cybersecurity professionals.
               </p>
               <p>
-                When I&apos;m not coding or writing, you can find me exploring new technologies,
-                contributing to open-source projects, or enjoying a good book.
+                As an Advanced Ethical Hacking Courseware Author for Virginia Cyber Range and a Course
+                Instructor at Vanderbilt University, I&apos;ve helped numerous students develop their
+                security skills. I also share insights through my technical writing on Medium.
               </p>
             </div>
           </div>
