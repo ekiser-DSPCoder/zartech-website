@@ -17,10 +17,25 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: 'Risq Radar',
+    description:
+      'Enterprise risk quantification platform that helps organizations understand, measure, and prioritize cybersecurity risks using industry-standard methodologies and data-driven analysis for informed decision-making.',
+    tags: ['Risk Quantification', 'Security Assessment', 'ROI Analysis', 'Executive Reporting'],
+    featured: true,
+    demo: 'https://riskradar.zartech.info',
+  },
+  {
     title: 'Advanced Ethical Hacking Courseware',
     description:
       'Comprehensive ethical hacking curriculum developed for Virginia Cyber Range, covering penetration testing methodologies, vulnerability assessment, and hands-on security labs utilized by numerous students.',
     tags: ['Education', 'Ethical Hacking', 'Curriculum Development', 'Security Training'],
+    featured: true,
+  },
+  {
+    title: 'DFARS/NIST/CMMC Compliance Programs',
+    description:
+      'Guided organizations through complex federal compliance requirements including DFARS, NIST 800-171, and CMMC frameworks. Developed security controls, policies, and procedures to achieve and maintain compliance.',
+    tags: ['DFARS', 'NIST 800-171', 'CMMC', 'Compliance', 'Federal Security'],
     featured: true,
   },
   {

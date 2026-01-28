@@ -8,19 +8,18 @@ export default function Home() {
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
           <div className="animate-fade-in-up">
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
-              <span className="text-gray-800">Hi, I&apos;m </span>
               <span className="gradient-text">R. Eric Kiser</span>
             </h1>
           </div>
           <div className="animate-fade-in-up animation-delay-200" style={{ opacity: 0 }}>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto">
-              Cybersecurity Professional &amp; Technical Writer
+              Cybersecurity Leader &amp; Strategic Risk Advisor
             </p>
           </div>
           <div className="animate-fade-in-up animation-delay-300" style={{ opacity: 0 }}>
             <p className="text-lg text-gray-500 mb-12 max-w-xl mx-auto">
-              Certified Information Security Manager with 10+ years of experience protecting organizations
-              and educating the next generation of security professionals.
+              Leading enterprise security programs, driving compliance initiatives, and shaping
+              the future of cybersecurity through education and innovation.
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up animation-delay-400" style={{ opacity: 0 }}>
