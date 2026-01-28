@@ -17,6 +17,11 @@ body {
   min-height: 100vh;
 }
 
+/* Garamond for all headers */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-garamond), 'EB Garamond', Garamond, Georgia, serif;
+}
+
 /* Tech Grid Background - subtle circuit board pattern */
 .tech-bg {
   background-color: #ffffff;
@@ -159,37 +164,47 @@ body {
     @apply rounded-xl shadow-xl overflow-hidden transition-all duration-500 hover:shadow-2xl bg-white border border-indigo-100;
   }
 
-  /* Section Heading - Professional and eye-catching */
+  /* Section Heading - Garamond font with dark blue color and animation */
   .section-heading {
-    @apply text-4xl md:text-5xl font-extrabold tracking-tight;
-    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 40%, #a855f7 70%, #c026d3 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    background-size: 200% 200%;
-    animation: gradient-shift 4s ease infinite;
+    @apply text-4xl md:text-5xl font-bold tracking-tight;
+    font-family: var(--font-garamond), 'EB Garamond', Garamond, Georgia, serif;
+    color: #1e3a8a;
+    animation: header-fade-glow 3s ease-in-out infinite;
   }
 
   /* Subheading style */
   .section-subheading {
-    @apply text-2xl md:text-3xl font-bold;
-    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    @apply text-2xl md:text-3xl font-semibold;
+    font-family: var(--font-garamond), 'EB Garamond', Garamond, Georgia, serif;
+    color: #1e3a8a;
+    animation: header-fade-glow 3s ease-in-out infinite;
+    animation-delay: 0.5s;
   }
 
   .gradient-text {
-    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #a855f7 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    background-size: 200% 200%;
-    animation: gradient-shift 4s ease infinite;
+    font-family: var(--font-garamond), 'EB Garamond', Garamond, Georgia, serif;
+    color: #1e3a8a;
+    animation: header-fade-glow 3s ease-in-out infinite;
+  }
+
+  /* Card headings */
+  .card h2, .card h3, .card-light h2, .card-light h3 {
+    font-family: var(--font-garamond), 'EB Garamond', Garamond, Georgia, serif;
   }
 }
 
 /* Animations */
+@keyframes header-fade-glow {
+  0%, 100% {
+    opacity: 1;
+    text-shadow: 0 0 0 transparent;
+  }
+  50% {
+    opacity: 0.85;
+    text-shadow: 0 0 20px rgba(30, 58, 138, 0.3);
+  }
+}
+
 @keyframes gradient-shift {
   0%, 100% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
