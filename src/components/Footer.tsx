@@ -48,7 +48,7 @@ export default function Footer() {
               <img
                 src="/zartech-logo.png"
                 alt="ZarTech"
-                className="h-10 w-auto brightness-0 invert"
+                className="h-14 w-auto brightness-0 invert"
               />
             </Link>
             <p className="mt-4 text-blue-100 text-sm">
