@@ -34,74 +34,55 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="relative text-white overflow-hidden" style={{ background: 'linear-gradient(135deg, #1e3a8a 0%, #3730a3 35%, #581c87 70%, #4a044e 100%)' }}>
-      {/* Tech circuit pattern overlay */}
-      <div className="absolute inset-0 opacity-10" style={{
-        backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.4'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
-        pointerEvents: 'none'
-      }} />
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <footer className="bg-slate-800 text-white">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
           {/* Brand */}
-          <div>
+          <div className="flex items-center gap-6">
             <Link href="/">
               <img
                 src="/zartech-logo.png"
                 alt="ZarTech"
-                className="h-14 w-auto"
+                className="h-20 w-auto"
               />
             </Link>
-            <p className="mt-4 text-blue-100 text-sm">
-              Protecting organizations and educating security professionals for over a decade.
-            </p>
-          </div>
-
-          {/* Navigation */}
-          <div>
-            <h3 className="text-white font-semibold mb-4">Navigation</h3>
-            <ul className="space-y-2">
-              {footerLinks.map((link) => (
-                <li key={link.name}>
-                  <Link
-                    href={link.href}
-                    className="text-blue-100 hover:text-white transition-colors text-sm"
-                  >
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Social */}
-          <div>
-            <h3 className="text-white font-semibold mb-4">Connect</h3>
-            <div className="flex space-x-4">
+            <div className="flex gap-3">
               {socialLinks.map((link) => (
                 <a
                   key={link.name}
                   href={link.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center text-white hover:bg-white/20 transition-all icon-animated"
+                  className="w-9 h-9 rounded-lg bg-white/10 flex items-center justify-center text-white hover:bg-white/20 transition-all"
                   aria-label={link.name}
                 >
                   {link.icon}
                 </a>
               ))}
             </div>
-            <p className="mt-4 text-blue-100 text-sm">
-              <a href="mailto:ekiser@zartech.info" className="hover:text-white transition-colors">
-                ekiser@zartech.info
-              </a>
-            </p>
           </div>
+
+          {/* Navigation */}
+          <nav className="flex flex-wrap gap-x-6 gap-y-2">
+            {footerLinks.map((link) => (
+              <Link
+                key={link.name}
+                href={link.href}
+                className="text-gray-300 hover:text-white transition-colors text-sm"
+              >
+                {link.name}
+              </Link>
+            ))}
+          </nav>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-white/20">
-          <p className="text-center text-blue-200 text-sm">
+        <div className="mt-6 pt-6 border-t border-white/10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+          <p className="text-gray-400 text-sm">
             &copy; {currentYear} ZarTech. All rights reserved.
           </p>
+          <a href="mailto:ekiser@zartech.info" className="text-gray-400 hover:text-white transition-colors text-sm">
+            ekiser@zartech.info
+          </a>
         </div>
       </div>
     </footer>
