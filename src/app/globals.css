@@ -22,25 +22,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-garamond), 'EB Garamond', Garamond, Georgia, serif;
 }
 
-/* Tech Grid Background - subtle circuit board pattern */
+/* Tech Grid Background - computer wire pattern */
 .tech-bg {
   background-color: #ffffff;
-  background-image:
-    linear-gradient(rgba(99, 102, 241, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(99, 102, 241, 0.03) 1px, transparent 1px),
-    radial-gradient(circle at 25% 25%, rgba(139, 92, 246, 0.05) 0%, transparent 50%),
-    radial-gradient(circle at 75% 75%, rgba(99, 102, 241, 0.05) 0%, transparent 50%);
-  background-size: 40px 40px, 40px 40px, 100% 100%, 100% 100%;
+  position: relative;
 }
 
-/* Tech dots pattern */
-.tech-dots {
-  background-color: #ffffff;
-  background-image: radial-gradient(rgba(99, 102, 241, 0.15) 1px, transparent 1px);
-  background-size: 20px 20px;
-}
-
-/* Circuit pattern overlay */
+/* Wire/trace pattern overlay - looks like computer wires */
 .circuit-overlay {
   position: relative;
 }
@@ -49,14 +37,24 @@ h1, h2, h3, h4, h5, h6 {
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%236366f1' fill-opacity='0.04'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Cdefs%3E%3Cstyle%3E.wire%7Bfill:none;stroke:%231e3a8a;stroke-opacity:0.08;stroke-width:1.5;stroke-linecap:round;%7D.node%7Bfill:%231e3a8a;fill-opacity:0.12;%7D%3C/style%3E%3C/defs%3E%3C!-- Horizontal wires --%3E%3Cpath class='wire' d='M0 20h60'/%3E%3Cpath class='wire' d='M80 20h120'/%3E%3Cpath class='wire' d='M0 60h30'/%3E%3Cpath class='wire' d='M50 60h80'/%3E%3Cpath class='wire' d='M150 60h50'/%3E%3Cpath class='wire' d='M0 100h100'/%3E%3Cpath class='wire' d='M120 100h80'/%3E%3Cpath class='wire' d='M0 140h40'/%3E%3Cpath class='wire' d='M60 140h90'/%3E%3Cpath class='wire' d='M170 140h30'/%3E%3Cpath class='wire' d='M0 180h70'/%3E%3Cpath class='wire' d='M90 180h110'/%3E%3C!-- Vertical wires --%3E%3Cpath class='wire' d='M30 0v40'/%3E%3Cpath class='wire' d='M30 60v140'/%3E%3Cpath class='wire' d='M60 0v20'/%3E%3Cpath class='wire' d='M60 40v60'/%3E%3Cpath class='wire' d='M60 120v80'/%3E%3Cpath class='wire' d='M100 0v80'/%3E%3Cpath class='wire' d='M100 100v100'/%3E%3Cpath class='wire' d='M140 0v60'/%3E%3Cpath class='wire' d='M140 80v120'/%3E%3Cpath class='wire' d='M170 0v140'/%3E%3Cpath class='wire' d='M170 160v40'/%3E%3C!-- Diagonal connections --%3E%3Cpath class='wire' d='M60 20l20 20'/%3E%3Cpath class='wire' d='M130 60l20 20'/%3E%3Cpath class='wire' d='M100 100l20 20'/%3E%3Cpath class='wire' d='M40 140l20 20'/%3E%3Cpath class='wire' d='M150 140l20 20'/%3E%3Cpath class='wire' d='M70 180l20-20'/%3E%3C!-- Connection nodes --%3E%3Ccircle class='node' cx='30' cy='20' r='3'/%3E%3Ccircle class='node' cx='60' cy='20' r='2.5'/%3E%3Ccircle class='node' cx='80' cy='40' r='2'/%3E%3Ccircle class='node' cx='30' cy='60' r='2.5'/%3E%3Ccircle class='node' cx='50' cy='60' r='2'/%3E%3Ccircle class='node' cx='130' cy='60' r='3'/%3E%3Ccircle class='node' cx='150' cy='80' r='2'/%3E%3Ccircle class='node' cx='100' cy='100' r='3'/%3E%3Ccircle class='node' cx='120' cy='120' r='2.5'/%3E%3Ccircle class='node' cx='40' cy='140' r='2'/%3E%3Ccircle class='node' cx='60' cy='160' r='2.5'/%3E%3Ccircle class='node' cx='150' cy='140' r='2'/%3E%3Ccircle class='node' cx='170' cy='160' r='3'/%3E%3Ccircle class='node' cx='70' cy='180' r='2'/%3E%3Ccircle class='node' cx='90' cy='160' r='2'/%3E%3C/svg%3E");
   pointer-events: none;
   z-index: 0;
 }
 
-/* Hero Section with tech pattern */
+/* Secondary wire layer for depth */
+.circuit-overlay::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300' viewBox='0 0 300 300'%3E%3Cdefs%3E%3Cstyle%3E.wire2%7Bfill:none;stroke:%234338ca;stroke-opacity:0.05;stroke-width:1;stroke-linecap:round;%7D.node2%7Bfill:%234338ca;fill-opacity:0.08;%7D%3C/style%3E%3C/defs%3E%3C!-- Long horizontal traces --%3E%3Cpath class='wire2' d='M0 45h120l15 15h165'/%3E%3Cpath class='wire2' d='M0 105h80l20-20h200'/%3E%3Cpath class='wire2' d='M0 165h200l15 15h85'/%3E%3Cpath class='wire2' d='M0 225h50l25 25h225'/%3E%3Cpath class='wire2' d='M0 285h150l10-10h140'/%3E%3C!-- Long vertical traces --%3E%3Cpath class='wire2' d='M75 0v100l20 20v180'/%3E%3Cpath class='wire2' d='M150 0v150l-15 15v135'/%3E%3Cpath class='wire2' d='M225 0v80l15 15v205'/%3E%3C!-- Nodes --%3E%3Ccircle class='node2' cx='120' cy='45' r='4'/%3E%3Ccircle class='node2' cx='135' cy='60' r='3'/%3E%3Ccircle class='node2' cx='80' cy='105' r='3'/%3E%3Ccircle class='node2' cx='100' cy='85' r='4'/%3E%3Ccircle class='node2' cx='200' cy='165' r='3'/%3E%3Ccircle class='node2' cx='215' cy='180' r='4'/%3E%3Ccircle class='node2' cx='75' cy='100' r='3'/%3E%3Ccircle class='node2' cx='95' cy='120' r='3'/%3E%3Ccircle class='node2' cx='150' cy='150' r='4'/%3E%3Ccircle class='node2' cx='135' cy='165' r='3'/%3E%3Ccircle class='node2' cx='225' cy='80' r='3'/%3E%3Ccircle class='node2' cx='240' cy='95' r='4'/%3E%3Ccircle class='node2' cx='50' cy='225' r='3'/%3E%3Ccircle class='node2' cx='75' cy='250' r='4'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Hero Section with wire pattern */
 .hero-section {
-  background: linear-gradient(180deg, #faf5ff 0%, #ffffff 100%);
+  background: linear-gradient(180deg, #fafbff 0%, #ffffff 100%);
   position: relative;
 }
 
@@ -64,10 +62,17 @@ h1, h2, h3, h4, h5, h6 {
   content: '';
   position: absolute;
   inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='250' viewBox='0 0 250 250'%3E%3Cdefs%3E%3Cstyle%3E.hw%7Bfill:none;stroke:%231e3a8a;stroke-opacity:0.06;stroke-width:1.5;stroke-linecap:round;%7D.hn%7Bfill:%231e3a8a;fill-opacity:0.1;%7D%3C/style%3E%3C/defs%3E%3C!-- Wires --%3E%3Cpath class='hw' d='M0 30h80l10 10h160'/%3E%3Cpath class='hw' d='M0 80h40l15-15h195'/%3E%3Cpath class='hw' d='M0 130h120l20 20h110'/%3E%3Cpath class='hw' d='M0 180h60l10-10h180'/%3E%3Cpath class='hw' d='M0 230h100l15 15h135'/%3E%3Cpath class='hw' d='M50 0v60l10 10v180'/%3E%3Cpath class='hw' d='M125 0v100l-10 10v140'/%3E%3Cpath class='hw' d='M200 0v50l10 10v190'/%3E%3C!-- Nodes --%3E%3Ccircle class='hn' cx='80' cy='30' r='4'/%3E%3Ccircle class='hn' cx='90' cy='40' r='3'/%3E%3Ccircle class='hn' cx='40' cy='80' r='3'/%3E%3Ccircle class='hn' cx='55' cy='65' r='4'/%3E%3Ccircle class='hn' cx='120' cy='130' r='4'/%3E%3Ccircle class='hn' cx='140' cy='150' r='3'/%3E%3Ccircle class='hn' cx='60' cy='180' r='3'/%3E%3Ccircle class='hn' cx='70' cy='170' r='4'/%3E%3Ccircle class='hn' cx='50' cy='60' r='3'/%3E%3Ccircle class='hn' cx='60' cy='70' r='3'/%3E%3Ccircle class='hn' cx='125' cy='100' r='4'/%3E%3Ccircle class='hn' cx='115' cy='110' r='3'/%3E%3Ccircle class='hn' cx='200' cy='50' r='3'/%3E%3Ccircle class='hn' cx='210' cy='60' r='4'/%3E%3C/svg%3E");
+  pointer-events: none;
+}
+
+.hero-section::after {
+  content: '';
+  position: absolute;
+  inset: 0;
   background-image:
-    url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%236366f1' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"),
-    radial-gradient(circle at 20% 80%, rgba(139, 92, 246, 0.08) 0%, transparent 50%),
-    radial-gradient(circle at 80% 20%, rgba(99, 102, 241, 0.08) 0%, transparent 50%);
+    radial-gradient(circle at 15% 85%, rgba(30, 58, 138, 0.04) 0%, transparent 40%),
+    radial-gradient(circle at 85% 15%, rgba(67, 56, 202, 0.04) 0%, transparent 40%);
   pointer-events: none;
 }
 
