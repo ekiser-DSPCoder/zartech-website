@@ -95,7 +95,7 @@ export default function RiskRadar() {
               </div>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex justify-center">
               <a
                 href="https://riskradar.zartech.info"
                 target="_blank"
@@ -109,12 +109,6 @@ export default function RiskRadar() {
                   </svg>
                 </span>
               </a>
-              <Link
-                href="/contact"
-                className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium border-2 border-white text-white rounded-lg hover:bg-white/10 transition-all duration-300"
-              >
-                Request a Demo
-              </Link>
             </div>
           </div>
         </div>
