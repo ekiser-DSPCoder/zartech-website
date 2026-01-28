@@ -64,7 +64,7 @@ const projects: Project[] = [
     description:
       'Application design and development for a comprehensive care coordination platform, enabling streamlined communication and resource management for disability service providers.',
     tags: ['Application Design', 'Healthcare Tech', 'Full Stack Development'],
-    demo: 'https://carehub.dsplifecollaborative.com',
+    demo: 'https://carehub.mydsplife.com',
     featured: false,
   },
 ];
