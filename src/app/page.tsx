@@ -11,7 +11,7 @@ export default function Home() {
               <img
                 src="/eric-kiser.jpeg"
                 alt="R. Eric Kiser"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-top"
               />
             </div>
           </div>
