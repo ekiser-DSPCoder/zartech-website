@@ -6,7 +6,16 @@ export const metadata: Metadata = {
   description: 'Explore my cybersecurity projects, courseware, and security initiatives.',
 };
 
-const projects = [
+interface Project {
+  title: string;
+  description: string;
+  tags: string[];
+  featured: boolean;
+  github?: string;
+  demo?: string;
+}
+
+const projects: Project[] = [
   {
     title: 'Advanced Ethical Hacking Courseware',
     description:
