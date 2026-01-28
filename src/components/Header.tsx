@@ -26,7 +26,7 @@ export default function Header() {
             href="/"
             className="text-2xl font-bold gradient-text hover:opacity-80 transition-opacity"
           >
-            Zartech
+            ZarTech
           </Link>
 
           {/* Desktop Navigation */}

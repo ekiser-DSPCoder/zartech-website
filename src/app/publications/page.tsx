@@ -52,6 +52,7 @@ interface Publication {
   tags: string[];
   url: string;
   category: 'python' | 'security' | 'tools' | 'career' | 'general';
+  image?: string;
 }
 
 const publications: Publication[] = [
@@ -64,6 +65,7 @@ const publications: Publication[] = [
     tags: ['Python', 'Penetration Testing', 'Microsoft 365', 'MFA Bypass'],
     url: 'https://infosecwriteups.com/python-penetration-testing-0365-session-id-login-with-python-517da1d850a6',
     category: 'python',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xV9XyyBwutpXzLlZ_r3TB0Zp4IG2PywHx2-Y9N5V2OTvXz5gZFdtz3YkARZzTbnMetIgiatiiruOiEgJLL9_-Ujib3I9-7qHFs8nrNj7wmidH8IzlPxIbHiTfPVvEOnOSMrqTlkMrKC_phB',
   },
   {
     title: 'Python Penetration Testing: This Team Must be Token',
@@ -73,6 +75,7 @@ const publications: Publication[] = [
     tags: ['Python', 'Microsoft Teams', 'Token Extraction', 'Penetration Testing'],
     url: 'https://infosecwriteups.com/python-penetration-testing-this-team-must-be-token-851fb8af92b8',
     category: 'python',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xXX9FQ-Ix8LzjUygsKTCyhTvKTOeWESbhi1yX-PFgjf-eqPlIc7P6BXr8qOBGK161VqnQAEqB874W86T0_2EXi16hluXYoOL_53m4ca8woDq52G9dJziPqlU8QhPtv6mT5qdI79HhIhnAf-',
   },
   {
     title: 'Python Penetration Testing: Hacking Multi-Factor Authentication',
@@ -82,6 +85,7 @@ const publications: Publication[] = [
     tags: ['Python', 'MFA', 'Security Bypass', 'Authentication'],
     url: 'https://systemweakness.com/python-penetration-testing-hacking-multi-factor-authentication-ed293dc5459d',
     category: 'python',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xWIhqz07bXQNFj_RtanJ1KIwnc4LaVBhKIIv3mJ0n_rwQ8Yfi5OQO1jtkweScBYZuBoNYSD7Va_10KYf8-eESYVgNt4lAxV5pXcQq1MmV6rmBnNkTICINaaTSaPwOwbNwqjcHYFj7AxPs_W',
   },
   {
     title: 'Python Penetration Testing: Teams Work Makes the Dreams Work',
@@ -91,6 +95,7 @@ const publications: Publication[] = [
     tags: ['Python', 'Microsoft Teams', 'Data Extraction', 'Penetration Testing'],
     url: 'https://infosecwriteups.com/python-penetration-testing-teams-work-makes-the-dreams-work-143e9c1d2c3b',
     category: 'python',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xUggn2mUquPygSpGnPLhf2ozJNMneISnHpI0gZiE3VvbbD3Zw-yyBIZy5hdjqFzlROMxWHGp9dyeKxAkHFMbuJpMK_gHGBW5FUdloKlcOd_D2SCTBAyZiOWkw1hK6QcinlmITqWhbO6-Hw',
   },
   {
     title: 'Python Penetration Testing: File Transfers Using Google API',
@@ -100,6 +105,7 @@ const publications: Publication[] = [
     tags: ['Python', 'Google API', 'Data Exfiltration', 'Cloud Security'],
     url: 'https://infosecwriteups.com/python-penetration-testing-file-transfers-using-google-api-c4abf43fbcf1',
     category: 'python',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xVRYaKQT3-FEhiKcgFzOl-WnxK8T5rBaIFbYymZ6uBxvf__8Xo9dc__uD95q-QUpQHY8Iyy1qwRiuJuDLfstAXYAsJRTBbph43EhK4Lu7w_8gLfqPaD2_oULstzxp3sM67c2S2SMMzuXAw',
   },
   {
     title: 'Python Penetration Testing: Escaping the Matrix',
@@ -109,6 +115,7 @@ const publications: Publication[] = [
     tags: ['Python', 'GitHub', 'Data Exfiltration', 'Git Security'],
     url: 'https://infosecwriteups.com/python-penetration-testing-escaping-the-matrix-4180874da1b5',
     category: 'python',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xWhPmZ3BJL2JixFE3IGqN87fl_An3AxcXPLscy4mnh21qhHlkT3P7R5abbQtTb6NeClUIUDjgsQwcwJm1HjGDFLY0gfyZ5ylfHz0M5ZxJcxpOyzHdee7QKFdMnUFsMa089Te1KwFuQUWFw',
   },
   {
     title: 'Python Penetration Testing: I Can\'t CONTAIN Myself',
@@ -118,6 +125,7 @@ const publications: Publication[] = [
     tags: ['Python', 'Docker', 'Containers', 'DevSecOps'],
     url: 'https://infosecwriteups.com/python-penetration-testing-i-cant-contain-myself-409a9d1e20e9',
     category: 'python',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xUYssRM2W3WimXQDhiLWsHlJ8XSOYKPiqU6HGTTHWRt1J_s8S7qjWZFepZDePJxTBY40reIvAQwzPM2N3W0-MyZ-iE56SX7OYu2WzmQQ6UbbfkwsALejXegHJjVq8Dd9mcA5UjQpd4REkA',
   },
   {
     title: 'Python Penetration Testing: Connecting Multiple SQL Databases',
@@ -127,6 +135,7 @@ const publications: Publication[] = [
     tags: ['Python', 'SQL', 'Database Security', 'SSO'],
     url: 'https://infosecwriteups.com/python-penetration-testing-connecting-multiple-sql-databases-to-gather-juicy-data-cde9c33853d5',
     category: 'python',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xUvEfwMyUbTemZBgSvu2fRVwaG3wJQYLvEgP6snLrQBwlOTsYCy1LfmgAR6-eCuNa3v9kVEU7PvU0KnIqxkiOzvYl18fjIn0J8jTkflziCsdO4JNTLNXaXMUYbQgrXCwVR75anm9vsJ6p9t',
   },
   {
     title: 'Python Penetration Testing: SQL and Destroy',
@@ -136,6 +145,7 @@ const publications: Publication[] = [
     tags: ['Python', 'SQL', 'Network Discovery', 'Database Security'],
     url: 'https://systemweakness.com/python-penetration-testing-sql-and-destroy-eeed9b70dea2',
     category: 'python',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xWaNZCwfgpJzznBrfsbALk1z6oFUgIfZcHhNe93aVVhuxt3TjaTaFQgKD1EUOnJa1vZL8_WNfg19SY6-431TTyedcbgUk3V7Sx4PglFY2BxlAkqCJ_xJ1D8Lq-JEChimUjlsJJlXpYMWsIy',
   },
   {
     title: 'Python Penetration Testing: Sharing is Caring',
@@ -145,6 +155,7 @@ const publications: Publication[] = [
     tags: ['Python', 'SMB', 'Network Security', 'File Shares'],
     url: 'https://faun.pub/python-penetration-testing-sharing-is-caring-20fe6bdce965',
     category: 'python',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xWLcvOiS5jI93DrlK48IkJlYoqKWMG2kt8Przmz8bgadeg7eiiVWorF5CrGOveXiMVQVeWNGwIgQRX0-6_EKVoIAaMaYKQTlt1qaHjCmzNJBB8u2g_jY2HsOpdKy-Whsz5kfEblR1tTzw',
   },
   {
     title: 'Python Penetration Testing: Remotely Listing Services',
@@ -154,6 +165,7 @@ const publications: Publication[] = [
     tags: ['Python', 'Service Discovery', 'Windows', 'Linux'],
     url: 'https://systemweakness.com/python-penetration-testing-remotely-listing-services-5d46228d4d3f',
     category: 'python',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xVYFqlpnL8dKSorkq7bPiLHOvlMGXmB1KoUaWlau-qSlU42x1x4VtG5ZbDIXROCUfyV22IV7NfITCG8CPxnVqfiNNYc271OxzraDnTCAAqlHwQGZBC-GdhloxvR9_ijp44EmGJD8yv8LA',
   },
   {
     title: 'Python Penetration Testing: Discovering Obfuscated Web Applications',
@@ -163,6 +175,7 @@ const publications: Publication[] = [
     tags: ['Python', 'Web Security', 'Reconnaissance', 'OSINT'],
     url: 'https://systemweakness.com/python-penetration-testing-discovering-obfuscated-web-applications-c759a865534b',
     category: 'python',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xU4bLtMYudr2Lnky7QpqHBM1vfkMnF3FyanaR3QiIvYLlmOFkgCRQlvJuh7g97lCxEeo_1Em2HEJfJfUEcTlaEWcYNHrzY31hVWwOKksT3baYriTvahb80EQgAU4YjqH2byS5n2_MwSsw',
   },
   {
     title: 'Python Penetration Testing: Using Hashcat and Python to Crack Passwords',
@@ -172,6 +185,7 @@ const publications: Publication[] = [
     tags: ['Python', 'Hashcat', 'Password Cracking', 'Authentication'],
     url: 'https://systemweakness.com/python-penetration-testing-using-hashcat-and-python-to-crack-windows-passwords-34cb4f052bf3',
     category: 'python',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xUpofwye7z-Ux-FmteIyF8rAwk-hvbos1CTg6BZ-BNPzM12p9G7zKK0d9MEna0JSY1qLHTyjNzO8A03ftXPrFm3wB7LZOhb8djpgeNwbNEYTuvhpm45Rnr7IGl9DnBJwXN39s-n7X6CksY',
   },
   {
     title: 'Python Penetration Testing: Extracting Contact Information from Outlook',
@@ -181,6 +195,7 @@ const publications: Publication[] = [
     tags: ['Python', 'Outlook', 'OSINT', 'Social Engineering'],
     url: 'https://systemweakness.com/python-penetration-testing-extracting-contact-information-from-outlook-2bac232b22a9',
     category: 'python',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xX-e0erpeZRe0N7iN6npFJqcTBoh9FRn4z8MVuPQ6goiNGyn98MCCU96Xsyii0PqxA8koJbMxh4z6w1aNh7jXZ9mQgIUq1dUCXWdW2CU-Jl6ErNbFG-XMP_d6yUJqShLz_wI3KkAYgCkw',
   },
   {
     title: 'Python Penetration Testing: Running Multiple Scripts Simultaneously',
@@ -190,6 +205,7 @@ const publications: Publication[] = [
     tags: ['Python', 'Automation', 'Parallel Execution', 'Efficiency'],
     url: 'https://systemweakness.com/python-penetration-testing-running-multiple-scripts-on-multiple-devices-simultaneously-1554109ff09c',
     category: 'python',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xWDLJrDYHPD-NslwXjgRTEZYsQiW5NZB7ynpNwVeYhx_TEapJtzDXQ1BH8e3h1561vsz_JTOzXyKVHcbxEw7F_ry4By9lSSckroHn4PmQGGO7FC7Pq-VGmHAsM2-7vZxmh7DkCgkLpN5Ajx',
   },
   {
     title: 'Python Penetration Testing: Capturing and Filtering Web Application Packets',
@@ -199,6 +215,7 @@ const publications: Publication[] = [
     tags: ['Python', 'Packet Analysis', 'Network Security', 'Credential Harvesting'],
     url: 'https://systemweakness.com/python-penetration-testing-capturing-and-filtering-web-application-packets-to-harvest-credentials-e737a87374db',
     category: 'python',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xVcVBWkv6gs2PVO6SVzpuwUomaY0dJHv5LDCthVSD7KO6KpghGwAgMaiW_SPHlNKvaX58_xqFf7rJjGH15hb6O7-OdHutel2KOT3eN96NZs5JwnzN8rTk7RldFCNGtvPrEVaP49ouESSzQ',
   },
   // Security Tools & Integration
   {
@@ -209,6 +226,7 @@ const publications: Publication[] = [
     tags: ['Splunk', 'Knowbe4', 'SIEM', 'Integration'],
     url: 'https://medium.com/@ekiser_48014/knowbe4-to-splunk-33c5bdd53e29',
     category: 'tools',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xU98-36vus_3hmaD0EGqweLuWbxUIvUigQkz9wtxEvKarZv3WE-1f4eH2_kbn1vtjNguhK27MJhUC9JWiXRAoUZrt_r_rMnuwo_EPRM5ng0Fza_1zzgRiiNK5JxhMssJtE40RCGx8DOHOdK',
   },
   {
     title: 'How I Move Web App Data to Splunk using HEC Tokens',
@@ -218,6 +236,7 @@ const publications: Publication[] = [
     tags: ['Splunk', 'HEC Tokens', 'Data Integration', 'PhishER'],
     url: 'https://infosecwriteups.com/how-i-move-web-app-data-to-splunk-using-hec-tokens-ec371a298e58',
     category: 'tools',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xWF33vlVvaRVp0cQ0yfdFqZ6-VYNH4sQ4uIwfcVlVHLjtHl-JH-VybFdt3foUmVgOS9oO84xY2muN3qand-RO_tzAAS9Y0rSUFaijSTQ2wVWruCdmeJaHtvxLty37Lloha5w9xW44nsDvo',
   },
   {
     title: 'Vulnerability Management Tool Review: Tenable.io',
@@ -227,6 +246,7 @@ const publications: Publication[] = [
     tags: ['Tenable', 'Vulnerability Management', 'Tool Review', 'Security'],
     url: 'https://medium.com/@ekiser_48014/vulnerability-management-tool-review-tenable-io-71a249426e3e',
     category: 'tools',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xX3M96WWdcqyIHpwI6S-s1VB55v-Cw8i7fBm2tA99qTcaKor6FtRtlnt2gDcc8lpHkYRlGPHv4ErcWanE3hJcczImxXHdOeSbaXvn0gHfTIhrrrehGEjjBCISVO6Cl5XMVnuNKXpgiazV5-',
   },
   {
     title: 'Cyber Incident Response Workflow Diagraming Tools',
@@ -236,6 +256,7 @@ const publications: Publication[] = [
     tags: ['Incident Response', 'Tools', 'Workflow', 'Documentation'],
     url: 'https://medium.com/@ekiser_48014/cyber-incident-response-workflow-diagraming-tools-7ca4a2445bb2',
     category: 'tools',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xWEnSRGkT-u06B2EfBzmFIriA5H8XA40iCEbJX34O1wmaTX_uQ9hQI8nrrdjBUxWv13Zm3AAC4yvBGXb5JjlZTfdxiCTXDDCjuzvbK94AcBUHN8i_ejKbf6OKDWUmAWLa-HkvwjjaP1krDQ',
   },
   // Security Management & Strategy
   {
@@ -246,6 +267,7 @@ const publications: Publication[] = [
     tags: ['Privilege Escalation', 'Local Admin', 'Least Privilege', 'Security'],
     url: 'https://infosecwriteups.com/exploiting-local-admin-access-dfb42eddf5d2',
     category: 'security',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xWAEaBleQpHCSae_DuYliqfVUOs3M79fZCSTLnmNVrCBGP3YTxRt8QGlk5nUZKToGy1sGHRq8N_TzxkcvFjRjt2V4n4_B7wvkbymkpCdOHmjfyM92tIyzIZtLwCq53m0x-Btam55bcI9mvEWQ',
   },
   {
     title: 'Creating a Vulnerability Management Policy',
@@ -255,6 +277,7 @@ const publications: Publication[] = [
     tags: ['Policy', 'Vulnerability Management', 'Governance', 'Compliance'],
     url: 'https://medium.com/@ekiser_48014/creating-a-vulnerability-management-policy-92178e7cbedc',
     category: 'security',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xVilz-GNBHeeB0A6InE_B7yGbv3SYUmF434qgYYRyOVj_qJRcexz3CflNAxpKHdwppkkgkmO7lURV1nJaoJjNVK5wqceRgd0bwmz3-E066lVAD4Ycyd-o9YghCh98WUOxzB4J9E11zOX-RQ',
   },
   {
     title: 'Integrating Vulnerability Management into the Risk Management Strategy',
@@ -264,6 +287,7 @@ const publications: Publication[] = [
     tags: ['Risk Management', 'Vulnerability Management', 'Strategy', 'GRC'],
     url: 'https://medium.com/@ekiser_48014/integrating-vulnerability-management-into-the-risk-management-strategy-46e323e6479d',
     category: 'security',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xXU7F0MFHHp3s72G7DzBuTLJ2f4N7CexaR0zLQfSaU5sR7QHds9-NJD9G-qc9YoL1fHLxJgXpoR3EMts8BQHi-JCC0PEsEP9wKf5LcUgggwsSCGkBYc8rcn9cF8g4YmEMXgABMNxhYBe7c',
   },
   {
     title: 'Agile VS Waterfall',
@@ -273,6 +297,7 @@ const publications: Publication[] = [
     tags: ['Project Management', 'Agile', 'Waterfall', 'MFA Implementation'],
     url: 'https://faun.pub/agile-vs-waterfall-7b1ca6326ddd',
     category: 'general',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xXA2MI6HO1PH2Gd_vi-faYDLQlFZqa8OhGXqcvMedNelR2P_EeMD72UUaA5UA1bm3O3Z5Qdk97Qos4YKXvOCeP4sxGOVgQLRFDWCmDsG8H9Jy4LGRKm-MKWgvRC3gMq0nx5Lj1mHpPAgLpI',
   },
   // Career & Industry
   {
@@ -393,88 +418,6 @@ export default function Publications() {
           </a>
         </div>
 
-        {/* Videos Section */}
-        <div className="mb-16">
-          <h2 className="section-subheading mb-8 flex items-center gap-3">
-            <span className="w-10 h-10 rounded-lg bg-gradient-to-br from-red-500 to-red-700 flex items-center justify-center">
-              <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
-              </svg>
-            </span>
-            Videos
-          </h2>
-
-          {/* Full Videos */}
-          <div className="grid md:grid-cols-2 gap-6 mb-8">
-            {videos.filter(v => v.type === 'video').map((video, index) => (
-              <a
-                key={video.id}
-                href={`https://www.youtube.com/watch?v=${video.id}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="card p-4 group animate-fade-in-up block"
-                style={{ opacity: 0, animationDelay: `${0.1 + index * 0.1}s` }}
-              >
-                <div className="relative aspect-video rounded-lg overflow-hidden mb-4">
-                  <img
-                    src={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`}
-                    alt={video.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                  <div className="absolute inset-0 bg-black/30 flex items-center justify-center group-hover:bg-black/40 transition-colors">
-                    <div className="w-16 h-16 rounded-full bg-red-600 flex items-center justify-center group-hover:scale-110 transition-transform">
-                      <svg className="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z"/>
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-                <h3 className="text-lg font-bold text-white group-hover:text-blue-200 transition-colors">
-                  {video.title}
-                </h3>
-              </a>
-            ))}
-          </div>
-
-          {/* Shorts */}
-          <h3 className="text-lg font-semibold text-gray-700 mb-4 flex items-center gap-2">
-            <svg className="w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M17.77 10.32c-.77-.32-1.2-.5-1.2-.5L18 9.06c1.84-.96 2.53-3.23 1.56-5.06s-3.24-2.53-5.07-1.56L6 6.94c-1.29.68-2.07 2.04-2 3.49.07 1.42.93 2.67 2.22 3.25.03.01 1.2.5 1.2.5L6 14.93c-1.83.97-2.53 3.24-1.56 5.07.97 1.83 3.24 2.53 5.07 1.56l8.5-4.5c1.29-.68 2.06-2.04 1.99-3.49-.07-1.42-.94-2.68-2.23-3.25zM10 14.65v-5.3L15 12l-5 2.65z"/>
-            </svg>
-            Shorts
-          </h3>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {videos.filter(v => v.type === 'short').map((video, index) => (
-              <a
-                key={video.id}
-                href={`https://www.youtube.com/shorts/${video.id}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="card p-3 group animate-fade-in-up block"
-                style={{ opacity: 0, animationDelay: `${0.2 + index * 0.1}s` }}
-              >
-                <div className="relative aspect-[9/16] rounded-lg overflow-hidden mb-3">
-                  <img
-                    src={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`}
-                    alt={video.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                  <div className="absolute inset-0 bg-black/30 flex items-center justify-center group-hover:bg-black/40 transition-colors">
-                    <div className="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center group-hover:scale-110 transition-transform">
-                      <svg className="w-6 h-6 text-white ml-0.5" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z"/>
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-                <h3 className="text-sm font-semibold text-white group-hover:text-blue-200 transition-colors line-clamp-2">
-                  {video.title}
-                </h3>
-              </a>
-            ))}
-          </div>
-        </div>
-
         {/* Articles Section Header */}
         <h2 className="section-subheading mb-8 flex items-center gap-3">
           <span className="w-10 h-10 rounded-lg bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
@@ -493,12 +436,22 @@ export default function Publications() {
               className="card p-6 group animate-fade-in-up flex flex-col"
               style={{ opacity: 0, animationDelay: `${0.1 + (index % 9) * 0.05}s` }}
             >
-              {/* Category Thumbnail */}
-              <div className={`w-full h-32 rounded-lg bg-gradient-to-br ${categoryColors[publication.category]} mb-4 flex items-center justify-center relative overflow-hidden`}>
-                <div className="absolute inset-0 bg-black/10" />
-                <div className="relative z-10 w-16 h-16 rounded-full bg-white/20 flex items-center justify-center">
-                  {categoryIcons[publication.category]}
-                </div>
+              {/* Thumbnail */}
+              <div className={`w-full h-32 rounded-lg mb-4 flex items-center justify-center relative overflow-hidden ${!publication.image ? `bg-gradient-to-br ${categoryColors[publication.category]}` : ''}`}>
+                {publication.image ? (
+                  <img
+                    src={publication.image}
+                    alt={publication.title}
+                    className="w-full h-full object-cover"
+                  />
+                ) : (
+                  <>
+                    <div className="absolute inset-0 bg-black/10" />
+                    <div className="relative z-10 w-16 h-16 rounded-full bg-white/20 flex items-center justify-center">
+                      {categoryIcons[publication.category]}
+                    </div>
+                  </>
+                )}
               </div>
 
               {/* Content */}
@@ -554,6 +507,88 @@ export default function Publications() {
               </div>
             </article>
           ))}
+        </div>
+
+        {/* Videos Section */}
+        <div className="mt-16 mb-16">
+          <h2 className="section-subheading mb-8 flex items-center gap-3">
+            <span className="w-10 h-10 rounded-lg bg-gradient-to-br from-red-500 to-red-700 flex items-center justify-center">
+              <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+              </svg>
+            </span>
+            Videos
+          </h2>
+
+          {/* Full Videos */}
+          <div className="grid md:grid-cols-2 gap-6 mb-8">
+            {videos.filter(v => v.type === 'video').map((video, index) => (
+              <a
+                key={video.id}
+                href={`https://www.youtube.com/watch?v=${video.id}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="card p-4 group animate-fade-in-up block"
+                style={{ opacity: 0, animationDelay: `${0.1 + index * 0.1}s` }}
+              >
+                <div className="relative aspect-video rounded-lg overflow-hidden mb-4 bg-gray-100">
+                  <img
+                    src={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`}
+                    alt={video.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 brightness-110"
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="w-16 h-16 rounded-full bg-red-600/90 flex items-center justify-center group-hover:scale-110 group-hover:bg-red-600 transition-all shadow-lg">
+                      <svg className="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <h3 className="text-lg font-bold text-white group-hover:text-blue-200 transition-colors">
+                  {video.title}
+                </h3>
+              </a>
+            ))}
+          </div>
+
+          {/* Shorts */}
+          <h3 className="text-lg font-semibold text-gray-700 mb-4 flex items-center gap-2">
+            <svg className="w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M17.77 10.32c-.77-.32-1.2-.5-1.2-.5L18 9.06c1.84-.96 2.53-3.23 1.56-5.06s-3.24-2.53-5.07-1.56L6 6.94c-1.29.68-2.07 2.04-2 3.49.07 1.42.93 2.67 2.22 3.25.03.01 1.2.5 1.2.5L6 14.93c-1.83.97-2.53 3.24-1.56 5.07.97 1.83 3.24 2.53 5.07 1.56l8.5-4.5c1.29-.68 2.06-2.04 1.99-3.49-.07-1.42-.94-2.68-2.23-3.25zM10 14.65v-5.3L15 12l-5 2.65z"/>
+            </svg>
+            Shorts
+          </h3>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {videos.filter(v => v.type === 'short').map((video, index) => (
+              <a
+                key={video.id}
+                href={`https://www.youtube.com/shorts/${video.id}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="card p-3 group animate-fade-in-up block"
+                style={{ opacity: 0, animationDelay: `${0.2 + index * 0.1}s` }}
+              >
+                <div className="relative aspect-[9/16] rounded-lg overflow-hidden mb-3 bg-gray-100">
+                  <img
+                    src={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`}
+                    alt={video.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300 brightness-110"
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <div className="w-12 h-12 rounded-full bg-red-600/90 flex items-center justify-center group-hover:scale-110 group-hover:bg-red-600 transition-all shadow-lg">
+                      <svg className="w-6 h-6 text-white ml-0.5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <h3 className="text-sm font-semibold text-white group-hover:text-blue-200 transition-colors line-clamp-2">
+                  {video.title}
+                </h3>
+              </a>
+            ))}
+          </div>
         </div>
 
         {/* Newsletter CTA */}

@@ -45,7 +45,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <Link href="/" className="text-2xl font-bold text-white">
-              Zartech
+              ZarTech
             </Link>
             <p className="mt-4 text-blue-100 text-sm">
               Protecting organizations and educating security professionals for over a decade.
@@ -96,7 +96,7 @@ export default function Footer() {
 
         <div className="mt-12 pt-8 border-t border-white/20">
           <p className="text-center text-blue-200 text-sm">
-            &copy; {currentYear} Zartech. All rights reserved.
+            &copy; {currentYear} ZarTech. All rights reserved.
           </p>
         </div>
       </div>
