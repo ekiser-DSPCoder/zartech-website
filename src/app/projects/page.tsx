@@ -60,14 +60,6 @@ const projects: Project[] = [
     featured: false,
   },
   {
-    title: 'PowerShell Security Scripts',
-    description:
-      'Collection of PowerShell scripts for security assessments, including port scanning utilities and system enumeration tools for penetration testing engagements.',
-    tags: ['PowerShell', 'Automation', 'Security Tools'],
-    github: 'https://github.com/ekiser-DSPCoder',
-    featured: false,
-  },
-  {
     title: 'Security Awareness Training',
     description:
       'Developed and delivered security awareness training programs for organizations, helping employees recognize and respond to social engineering and phishing attacks.',
