@@ -103,9 +103,9 @@ export default function Publications() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                       </svg>
                     </div>
-                    <div className="flex items-center gap-4 text-sm text-indigo-200">
+                    <div className="flex items-center gap-4 text-sm text-blue-200">
                       <time dateTime={publication.date}>{formatDate(publication.date)}</time>
-                      <span className="w-1 h-1 bg-indigo-300 rounded-full" />
+                      <span className="w-1 h-1 bg-blue-300 rounded-full" />
                       <span>{publication.readTime}</span>
                     </div>
                   </div>
@@ -115,11 +115,11 @@ export default function Publications() {
                     rel="noopener noreferrer"
                     className="group/link"
                   >
-                    <h2 className="text-xl lg:text-2xl font-bold text-white group-hover/link:text-indigo-200 transition-colors mb-3">
+                    <h2 className="text-xl lg:text-2xl font-bold text-white group-hover/link:text-blue-200 transition-colors mb-3">
                       {publication.title}
                     </h2>
                   </a>
-                  <p className="text-indigo-100 mb-4">
+                  <p className="text-blue-100 mb-4">
                     {publication.description}
                   </p>
                   <div className="flex flex-wrap gap-2">
@@ -165,7 +165,7 @@ export default function Publications() {
             <h2 className="text-2xl lg:text-3xl font-bold text-white mb-4">
               Stay Updated
             </h2>
-            <p className="text-indigo-100 mb-8 max-w-xl mx-auto">
+            <p className="text-blue-100 mb-8 max-w-xl mx-auto">
               Follow me on Medium to get notified when I publish new articles about cybersecurity,
               penetration testing, and information security.
             </p>

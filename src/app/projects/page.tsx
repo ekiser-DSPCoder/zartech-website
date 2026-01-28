@@ -113,7 +113,7 @@ export default function Projects() {
                     </a>
                   )}
                 </div>
-                <p className="text-indigo-100 mb-6">{project.description}</p>
+                <p className="text-blue-100 mb-6">{project.description}</p>
                 <div className="flex flex-wrap gap-2">
                   {project.tags.map((tag) => (
                     <span
@@ -163,12 +163,12 @@ export default function Projects() {
                   )}
                 </div>
                 <h3 className="text-lg font-bold text-white mb-2">{project.title}</h3>
-                <p className="text-indigo-100 text-sm mb-4">{project.description}</p>
+                <p className="text-blue-100 text-sm mb-4">{project.description}</p>
                 <div className="flex flex-wrap gap-2">
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="px-2 py-0.5 text-xs bg-white/20 text-indigo-100 rounded"
+                      className="px-2 py-0.5 text-xs bg-white/20 text-blue-100 rounded"
                     >
                       {tag}
                     </span>
@@ -185,7 +185,7 @@ export default function Projects() {
             <h2 className="text-2xl font-bold text-white mb-4">
               Interested in Security Consulting or Training?
             </h2>
-            <p className="text-indigo-100 mb-8 max-w-xl mx-auto">
+            <p className="text-blue-100 mb-8 max-w-xl mx-auto">
               I provide cybersecurity consulting, penetration testing, and security awareness training services.
             </p>
             <Link

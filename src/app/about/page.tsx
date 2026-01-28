@@ -59,7 +59,7 @@ export default function About() {
               </span>
               My Story
             </h2>
-            <div className="space-y-4 text-indigo-100">
+            <div className="space-y-4 text-blue-100">
               <p>
                 I&apos;m a highly skilled Certified Information Security Manager (CISM) with over 10 years
                 of experience in the cybersecurity field. My expertise spans network security, vulnerability
@@ -94,7 +94,7 @@ export default function About() {
                   <h3 className="font-semibold text-white mb-3">{skillGroup.category}</h3>
                   <ul className="space-y-2">
                     {skillGroup.items.map((skill) => (
-                      <li key={skill} className="text-indigo-100 flex items-center">
+                      <li key={skill} className="text-blue-100 flex items-center">
                         <span className="w-2 h-2 bg-white/60 rounded-full mr-2" />
                         {skill}
                       </li>
@@ -122,9 +122,9 @@ export default function About() {
                 </div>
                 {/* Content */}
                 <div className="card p-6 ml-4">
-                  <span className="text-sm font-semibold text-indigo-200">{item.year}</span>
+                  <span className="text-sm font-semibold text-blue-200">{item.year}</span>
                   <h3 className="text-lg font-bold text-white mt-1">{item.title}</h3>
-                  <p className="text-indigo-100 mt-2">{item.description}</p>
+                  <p className="text-blue-100 mt-2">{item.description}</p>
                 </div>
               </div>
             ))}
@@ -142,7 +142,7 @@ export default function About() {
                 </svg>
               </div>
               <h3 className="text-lg font-bold text-white mb-2">Integrity</h3>
-              <p className="text-indigo-100">
+              <p className="text-blue-100">
                 Maintaining the highest ethical standards in security practices and education.
               </p>
             </div>
@@ -153,7 +153,7 @@ export default function About() {
                 </svg>
               </div>
               <h3 className="text-lg font-bold text-white mb-2">Continuous Learning</h3>
-              <p className="text-indigo-100">
+              <p className="text-blue-100">
                 Staying current with evolving threats and emerging security technologies.
               </p>
             </div>
@@ -164,7 +164,7 @@ export default function About() {
                 </svg>
               </div>
               <h3 className="text-lg font-bold text-white mb-2">Community</h3>
-              <p className="text-indigo-100">
+              <p className="text-blue-100">
                 Sharing knowledge and helping others grow in their security careers.
               </p>
             </div>

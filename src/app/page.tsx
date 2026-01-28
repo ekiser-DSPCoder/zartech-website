@@ -62,7 +62,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-white mb-4">Information Security</h3>
-              <p className="text-indigo-100">
+              <p className="text-blue-100">
                 Protecting organizations with comprehensive security strategies, vulnerability management,
                 and incident response.
               </p>
@@ -76,7 +76,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-white mb-4">Security Education</h3>
-              <p className="text-indigo-100">
+              <p className="text-blue-100">
                 Developing ethical hacking courseware and training the next generation of cybersecurity
                 professionals.
               </p>
@@ -90,7 +90,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-white mb-4">Technical Writing</h3>
-              <p className="text-indigo-100">
+              <p className="text-blue-100">
                 Sharing cybersecurity insights and knowledge through articles on Medium and
                 industry publications.
               </p>
@@ -106,7 +106,7 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
               Let&apos;s Work Together
             </h2>
-            <p className="text-indigo-100 mb-8 max-w-xl mx-auto">
+            <p className="text-blue-100 mb-8 max-w-xl mx-auto">
               Have a security challenge or want to collaborate? I&apos;d love to hear from you.
             </p>
             <Link

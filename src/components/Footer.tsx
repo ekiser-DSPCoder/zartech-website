@@ -33,15 +33,20 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gradient-to-r from-indigo-600 via-purple-600 to-purple-700 text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <footer className="relative text-white overflow-hidden" style={{ background: 'linear-gradient(135deg, #1e3a8a 0%, #3730a3 35%, #581c87 70%, #4a044e 100%)' }}>
+      {/* Tech circuit pattern overlay */}
+      <div className="absolute inset-0 opacity-10" style={{
+        backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.4'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+        pointerEvents: 'none'
+      }} />
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
             <Link href="/" className="text-2xl font-bold text-white">
               Zartech
             </Link>
-            <p className="mt-4 text-indigo-100 text-sm">
+            <p className="mt-4 text-blue-100 text-sm">
               Protecting organizations and educating security professionals for over a decade.
             </p>
           </div>
@@ -54,7 +59,7 @@ export default function Footer() {
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="text-indigo-100 hover:text-white transition-colors text-sm"
+                    className="text-blue-100 hover:text-white transition-colors text-sm"
                   >
                     {link.name}
                   </Link>
@@ -80,7 +85,7 @@ export default function Footer() {
                 </a>
               ))}
             </div>
-            <p className="mt-4 text-indigo-100 text-sm">
+            <p className="mt-4 text-blue-100 text-sm">
               <a href="mailto:ekiser@zartech.info" className="hover:text-white transition-colors">
                 ekiser@zartech.info
               </a>
@@ -89,7 +94,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-white/20">
-          <p className="text-center text-indigo-200 text-sm">
+          <p className="text-center text-blue-200 text-sm">
             &copy; {currentYear} Zartech. All rights reserved.
           </p>
         </div>

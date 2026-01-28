@@ -150,7 +150,7 @@ export default function Contact() {
                     <h3 className="font-semibold text-white">Email</h3>
                     <a
                       href="mailto:ekiser@zartech.info"
-                      className="text-indigo-100 hover:text-white transition-colors"
+                      className="text-blue-100 hover:text-white transition-colors"
                     >
                       ekiser@zartech.info
                     </a>
@@ -170,7 +170,7 @@ export default function Contact() {
                       href="https://linkedin.com/in/rekiser"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-indigo-100 hover:text-white transition-colors"
+                      className="text-blue-100 hover:text-white transition-colors"
                     >
                       linkedin.com/in/rekiser
                     </a>
@@ -190,7 +190,7 @@ export default function Contact() {
                       href="https://medium.com/@ekiser_48014"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-indigo-100 hover:text-white transition-colors"
+                      className="text-blue-100 hover:text-white transition-colors"
                     >
                       medium.com/@ekiser_48014
                     </a>
