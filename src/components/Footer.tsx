@@ -76,13 +76,10 @@ export default function Footer() {
           </nav>
         </div>
 
-        <div className="mt-6 pt-6 border-t border-gray-200 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-          <p className="text-gray-500 text-sm">
+        <div className="mt-6 pt-6 border-t border-gray-200">
+          <p className="text-gray-500 text-sm text-center">
             &copy; {currentYear} ZarTech. All rights reserved.
           </p>
-          <a href="mailto:ekiser@zartech.info" className="text-gray-500 hover:text-gray-900 transition-colors text-sm">
-            ekiser@zartech.info
-          </a>
         </div>
       </div>
     </footer>
