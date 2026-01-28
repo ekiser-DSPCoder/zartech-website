@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="relative bg-white">
+    <div className="relative">
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center justify-center hero-section">
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
@@ -47,8 +47,8 @@ export default function Home() {
       </section>
 
       {/* Featured Section */}
-      <section className="py-20 bg-white section-pattern">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-20 tech-bg circuit-overlay">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <h2 className="section-heading text-center mb-4">What I Do</h2>
           <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
             Protecting organizations and empowering security professionals
@@ -100,7 +100,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 tech-bg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="card p-12 text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">

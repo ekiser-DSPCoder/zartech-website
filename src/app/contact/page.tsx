@@ -24,15 +24,10 @@ export default function Contact() {
   };
 
   return (
-    <div className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="py-20 tech-bg circuit-overlay">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Header */}
         <div className="text-center mb-16">
-          <div className="header-icon mx-auto animate-float">
-            <svg className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-            </svg>
-          </div>
           <h1 className="section-heading mb-4">Get In Touch</h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Have a question or want to work together? I&apos;d love to hear from you. Send me a

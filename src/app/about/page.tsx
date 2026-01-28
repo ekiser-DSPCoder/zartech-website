@@ -37,15 +37,10 @@ const timeline = [
 
 export default function About() {
   return (
-    <div className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="py-20 tech-bg circuit-overlay">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Header */}
         <div className="text-center mb-16">
-          <div className="header-icon mx-auto animate-float">
-            <svg className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-            </svg>
-          </div>
           <h1 className="section-heading mb-4">About Me</h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             A certified information security manager with over a decade of experience protecting
