@@ -2,8 +2,47 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Publications - R. Eric Kiser',
-  description: 'Read my articles covering cybersecurity, penetration testing, Python security tools, and information security.',
+  description: 'Read my articles and watch videos covering cybersecurity, penetration testing, Python security tools, and information security.',
 };
+
+interface Video {
+  id: string;
+  title: string;
+  type: 'video' | 'short';
+}
+
+const videos: Video[] = [
+  {
+    id: 'oHgsUNqL14w',
+    title: 'Cybersecurity Insights',
+    type: 'video',
+  },
+  {
+    id: 'PfKaA2MSkAA',
+    title: 'Security Deep Dive',
+    type: 'video',
+  },
+  {
+    id: 'HV-Lbjr9baI',
+    title: 'Quick Security Tip #1',
+    type: 'short',
+  },
+  {
+    id: 'SSIxcyIJ4qw',
+    title: 'Quick Security Tip #2',
+    type: 'short',
+  },
+  {
+    id: 'kON_wYP0AMA',
+    title: 'Quick Security Tip #3',
+    type: 'short',
+  },
+  {
+    id: 'MGFlav5KHWg',
+    title: 'Quick Security Tip #4',
+    type: 'short',
+  },
+];
 
 interface Publication {
   title: string;
@@ -353,6 +392,98 @@ export default function Publications() {
             </span>
           </a>
         </div>
+
+        {/* Videos Section */}
+        <div className="mb-16">
+          <h2 className="section-subheading mb-8 flex items-center gap-3">
+            <span className="w-10 h-10 rounded-lg bg-gradient-to-br from-red-500 to-red-700 flex items-center justify-center">
+              <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+              </svg>
+            </span>
+            Videos
+          </h2>
+
+          {/* Full Videos */}
+          <div className="grid md:grid-cols-2 gap-6 mb-8">
+            {videos.filter(v => v.type === 'video').map((video, index) => (
+              <a
+                key={video.id}
+                href={`https://www.youtube.com/watch?v=${video.id}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="card p-4 group animate-fade-in-up block"
+                style={{ opacity: 0, animationDelay: `${0.1 + index * 0.1}s` }}
+              >
+                <div className="relative aspect-video rounded-lg overflow-hidden mb-4">
+                  <img
+                    src={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`}
+                    alt={video.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-black/30 flex items-center justify-center group-hover:bg-black/40 transition-colors">
+                    <div className="w-16 h-16 rounded-full bg-red-600 flex items-center justify-center group-hover:scale-110 transition-transform">
+                      <svg className="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <h3 className="text-lg font-bold text-white group-hover:text-blue-200 transition-colors">
+                  {video.title}
+                </h3>
+              </a>
+            ))}
+          </div>
+
+          {/* Shorts */}
+          <h3 className="text-lg font-semibold text-gray-700 mb-4 flex items-center gap-2">
+            <svg className="w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M17.77 10.32c-.77-.32-1.2-.5-1.2-.5L18 9.06c1.84-.96 2.53-3.23 1.56-5.06s-3.24-2.53-5.07-1.56L6 6.94c-1.29.68-2.07 2.04-2 3.49.07 1.42.93 2.67 2.22 3.25.03.01 1.2.5 1.2.5L6 14.93c-1.83.97-2.53 3.24-1.56 5.07.97 1.83 3.24 2.53 5.07 1.56l8.5-4.5c1.29-.68 2.06-2.04 1.99-3.49-.07-1.42-.94-2.68-2.23-3.25zM10 14.65v-5.3L15 12l-5 2.65z"/>
+            </svg>
+            Shorts
+          </h3>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {videos.filter(v => v.type === 'short').map((video, index) => (
+              <a
+                key={video.id}
+                href={`https://www.youtube.com/shorts/${video.id}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="card p-3 group animate-fade-in-up block"
+                style={{ opacity: 0, animationDelay: `${0.2 + index * 0.1}s` }}
+              >
+                <div className="relative aspect-[9/16] rounded-lg overflow-hidden mb-3">
+                  <img
+                    src={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`}
+                    alt={video.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-black/30 flex items-center justify-center group-hover:bg-black/40 transition-colors">
+                    <div className="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center group-hover:scale-110 transition-transform">
+                      <svg className="w-6 h-6 text-white ml-0.5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <h3 className="text-sm font-semibold text-white group-hover:text-blue-200 transition-colors line-clamp-2">
+                  {video.title}
+                </h3>
+              </a>
+            ))}
+          </div>
+        </div>
+
+        {/* Articles Section Header */}
+        <h2 className="section-subheading mb-8 flex items-center gap-3">
+          <span className="w-10 h-10 rounded-lg bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
+            <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+            </svg>
+          </span>
+          Articles
+        </h2>
 
         {/* Publications Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
