@@ -6,10 +6,10 @@ export const metadata: Metadata = {
 };
 
 const skills = [
-  { category: 'Security', items: ['Penetration Testing', 'Vulnerability Management', 'Incident Response', 'Risk Assessment'] },
-  { category: 'Certifications', items: ['CISM', 'Ethical Hacking', 'Security Management', 'IT Security'] },
-  { category: 'Tools', items: ['PowerShell', 'Network Security', 'SIEM', 'Attack Simulation'] },
-  { category: 'Education', items: ['Courseware Development', 'Training Delivery', 'Curriculum Design', 'Mentoring'] },
+  { category: 'Leadership', items: ['Cyber Operations Oversight', 'IT Shared Services (50+ team)', 'Security Program Management', 'Strategic Risk Advisory'] },
+  { category: 'Certifications', items: ['CISM', 'C|CISO', 'Ethical Hacking', 'Security Management'] },
+  { category: 'Expertise', items: ['Risk Assessments', 'Vulnerability Management', 'Incident Response', 'Penetration Testing'] },
+  { category: 'Compliance', items: ['DFARS', 'NIST 800-171', 'CMMC', 'Policy Development'] },
 ];
 
 const timeline = [
@@ -61,19 +61,20 @@ export default function About() {
             </h2>
             <div className="space-y-4 text-blue-100">
               <p>
-                I&apos;m a highly skilled Certified Information Security Manager (CISM) with over 10 years
-                of experience in the cybersecurity field. My expertise spans network security, vulnerability
-                management, penetration testing, and incident response.
+                I&apos;m a cybersecurity leader with CISM and C|CISO certifications, bringing over 10 years
+                of experience leading enterprise security programs. I oversee cyber operations and manage
+                IT Shared Services supporting 50+ team members across multiple business units.
+              </p>
+              <p>
+                My expertise spans risk assessments, vulnerability management, incident response, and
+                penetration testing. I&apos;ve guided organizations through complex compliance requirements
+                including DFARS, NIST 800-171, and CMMC frameworks.
               </p>
               <p>
                 I hold a Master of Science from EC-Council University and a Bachelor of Science from
-                Shippensburg University of Pennsylvania. My passion for security extends beyond protecting
-                organizations—I&apos;m dedicated to educating the next generation of cybersecurity professionals.
-              </p>
-              <p>
-                As an Advanced Ethical Hacking Courseware Author for Virginia Cyber Range and a Course
-                Instructor at Vanderbilt University, I&apos;ve helped numerous students develop their
-                security skills. I also share insights through my technical writing on Medium.
+                Shippensburg University of Pennsylvania. Beyond protecting organizations, I&apos;m dedicated
+                to educating security professionals as an Advanced Ethical Hacking Courseware Author for
+                Virginia Cyber Range and Course Instructor at Vanderbilt University.
               </p>
             </div>
           </div>
