@@ -17,7 +17,7 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 backdrop-blur-lg bg-white/80 dark:bg-primary-950/80 border-b border-primary-100 dark:border-primary-800/50">
+    <header className="sticky top-0 z-50 backdrop-blur-xl bg-indigo-950/80 border-b border-purple-500/20">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
@@ -36,10 +36,10 @@ export default function Header() {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
+                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 ${
                     isActive
-                      ? 'bg-gradient-primary text-white shadow-md'
-                      : 'text-primary-700 dark:text-primary-200 hover:bg-primary-100 dark:hover:bg-primary-800/50'
+                      ? 'bg-gradient-to-r from-indigo-500 to-purple-600 text-white shadow-lg shadow-purple-500/25'
+                      : 'text-purple-200 hover:text-white hover:bg-purple-500/20'
                   }`}
                 >
                   {item.name}
@@ -51,7 +51,7 @@ export default function Header() {
           {/* Mobile menu button */}
           <button
             type="button"
-            className="md:hidden p-2 rounded-lg text-primary-700 dark:text-primary-200 hover:bg-primary-100 dark:hover:bg-primary-800/50"
+            className="md:hidden p-2 rounded-lg text-purple-200 hover:text-white hover:bg-purple-500/20 transition-colors"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -77,7 +77,7 @@ export default function Header() {
 
         {/* Mobile Navigation */}
         {mobileMenuOpen && (
-          <div className="md:hidden py-4 border-t border-primary-100 dark:border-primary-800/50">
+          <div className="md:hidden py-4 border-t border-purple-500/20 animate-fade-in-up">
             <div className="flex flex-col space-y-2">
               {navigation.map((item) => {
                 const isActive = pathname === item.href;
@@ -86,10 +86,10 @@ export default function Header() {
                     key={item.name}
                     href={item.href}
                     onClick={() => setMobileMenuOpen(false)}
-                    className={`px-4 py-3 rounded-lg text-base font-medium transition-all duration-200 ${
+                    className={`px-4 py-3 rounded-lg text-base font-medium transition-all duration-300 ${
                       isActive
-                        ? 'bg-gradient-primary text-white shadow-md'
-                        : 'text-primary-700 dark:text-primary-200 hover:bg-primary-100 dark:hover:bg-primary-800/50'
+                        ? 'bg-gradient-to-r from-indigo-500 to-purple-600 text-white shadow-lg'
+                        : 'text-purple-200 hover:text-white hover:bg-purple-500/20'
                     }`}
                   >
                     {item.name}

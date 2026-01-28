@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="min-h-screen flex flex-col bg-gradient-to-br from-primary-50 via-white to-accent-50 dark:from-primary-950 dark:via-gray-900 dark:to-accent-950">
+      <body className="min-h-screen flex flex-col tech-background noise-overlay">
         <Header />
         <main className="flex-grow">{children}</main>
         <Footer />
