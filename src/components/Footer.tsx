@@ -34,7 +34,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-slate-800 text-white">
+    <footer className="bg-white text-gray-800 border-t border-gray-200">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
           {/* Brand */}
@@ -53,7 +53,7 @@ export default function Footer() {
                   href={link.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-9 h-9 rounded-lg bg-white/10 flex items-center justify-center text-white hover:bg-white/20 transition-all"
+                  className="w-9 h-9 rounded-lg bg-gray-100 flex items-center justify-center text-gray-600 hover:bg-gray-200 hover:text-gray-800 transition-all"
                   aria-label={link.name}
                 >
                   {link.icon}
@@ -68,7 +68,7 @@ export default function Footer() {
               <Link
                 key={link.name}
                 href={link.href}
-                className="text-gray-300 hover:text-white transition-colors text-sm"
+                className="text-gray-600 hover:text-gray-900 transition-colors text-sm"
               >
                 {link.name}
               </Link>
@@ -76,11 +76,11 @@ export default function Footer() {
           </nav>
         </div>
 
-        <div className="mt-6 pt-6 border-t border-white/10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-          <p className="text-gray-400 text-sm">
+        <div className="mt-6 pt-6 border-t border-gray-200 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+          <p className="text-gray-500 text-sm">
             &copy; {currentYear} ZarTech. All rights reserved.
           </p>
-          <a href="mailto:ekiser@zartech.info" className="text-gray-400 hover:text-white transition-colors text-sm">
+          <a href="mailto:ekiser@zartech.info" className="text-gray-500 hover:text-gray-900 transition-colors text-sm">
             ekiser@zartech.info
           </a>
         </div>
