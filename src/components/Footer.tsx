@@ -44,8 +44,12 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
-            <Link href="/" className="text-2xl font-bold text-white">
-              ZarTech
+            <Link href="/">
+              <img
+                src="/zartech-logo.png"
+                alt="ZarTech"
+                className="h-10 w-auto brightness-0 invert"
+              />
             </Link>
             <p className="mt-4 text-blue-100 text-sm">
               Protecting organizations and educating security professionals for over a decade.

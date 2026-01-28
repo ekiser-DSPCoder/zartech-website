@@ -24,9 +24,13 @@ export default function Header() {
           {/* Logo */}
           <Link
             href="/"
-            className="text-2xl font-bold gradient-text hover:opacity-80 transition-opacity"
+            className="hover:opacity-80 transition-opacity"
           >
-            ZarTech
+            <img
+              src="/zartech-logo.png"
+              alt="ZarTech"
+              className="h-10 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
