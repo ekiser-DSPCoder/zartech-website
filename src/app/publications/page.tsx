@@ -65,7 +65,7 @@ const publications: Publication[] = [
     tags: ['Python', 'Penetration Testing', 'Microsoft 365', 'MFA Bypass'],
     url: 'https://infosecwriteups.com/python-penetration-testing-0365-session-id-login-with-python-517da1d850a6',
     category: 'python',
-    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xWO7wPUrvgGlhsmiNwVn64TKhXEO_fqDo8x-1dFarM_Wk8eTlm8Kwu32aJKXvLQWWr7kLKegJ1KVjpXRvvSNgdrH35swLq2RHU3tSs1I0sx4W9yKN_byki1cXaBkJJFgocmO7f9qZ2V_tTb',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xXhi0HFIW6FbHmIpqnu3f_POtbEIzrbaB-P2hud9WdVfRLESeOxkO4DspVHBEqx5RacfxqPPRt-oUoA4Dmokhtkwgmjo7sgqZLE9J3M48Typmn138FxIUpTzoAhNLO-zcPAwMw1Xd2wq2nX',
   },
   {
     title: 'Python Penetration Testing: This Team Must be Token',
@@ -75,7 +75,7 @@ const publications: Publication[] = [
     tags: ['Python', 'Microsoft Teams', 'Token Extraction', 'Penetration Testing'],
     url: 'https://infosecwriteups.com/python-penetration-testing-this-team-must-be-token-851fb8af92b8',
     category: 'python',
-    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xXwmphpI_rrCqWlGypgDDpWA6Dy1h-Q2hVMAwf2SYB5p9LoQJu3lImkBQfqadRawZHvmxHrLTz0Z9vljxYcTyH53kjulkUFwD38qieYMDAr8G9AeYiax-2TzKTyldszZypcEEN8fJh_k-Hy',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xWp5WS_4bDS2FgAMVP6XQVBnh8LdSxnVPkSf9upUrrGCzhnChrReggb5VKYBBSav40zqXzHg8v2ZZbE-ZAEqfuml1qIx8u-bKsn57cZMwuqDn0Yi6aSmPE_om-6u45smDDFdP-EYwqTycjh',
   },
   {
     title: 'Python Penetration Testing: Hacking Multi-Factor Authentication',
@@ -85,7 +85,7 @@ const publications: Publication[] = [
     tags: ['Python', 'MFA', 'Security Bypass', 'Authentication'],
     url: 'https://systemweakness.com/python-penetration-testing-hacking-multi-factor-authentication-ed293dc5459d',
     category: 'python',
-    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xVEgx7tK_dn4BLl7HDkOm5DnY9E4FVaNMoTLinZ12xegt4JxpeVIM27mX7lUKkFcwYHPcVVNZ5ZgqJ2zNfrat5ZPHIwGob8XKrBuZGmzWaxi1dSFIbmDjQMG5UZUkYQ5yxdYhy9h8YU51tC',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xWTZ6nv6BSRpWfACZIuDngL_Oaui48HlGNqvY0JebUy9RWjv5jVeGhbUdMDK32Oe_n7yI1mdL4OwfnHAJT_O8X_0m7hBFCeM-osBf0xs0CiIAEBJ9I6JCwp6qhvv65yT50k0cdfOsDnadov',
   },
   {
     title: 'Python Penetration Testing: Teams Work Makes the Dreams Work',
@@ -95,7 +95,7 @@ const publications: Publication[] = [
     tags: ['Python', 'Microsoft Teams', 'Data Extraction', 'Penetration Testing'],
     url: 'https://infosecwriteups.com/python-penetration-testing-teams-work-makes-the-dreams-work-143e9c1d2c3b',
     category: 'python',
-    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xWgsjTG8_bdZz7bM-zne2Hh4sJM0K_7B0ZK9ZXk5nY66TNfIpu0vJHRn5JWTm9oQy4t4-ND_ZWmNAvUGUmuWHE9LoHzDWz3hr9sdcSlZajWjoVQL6_UFKUjy1xLBio-fesoLMCYzbAPw_I',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xXfQF7E2uhhhDXcv00J6bEsG45t_SdWBZGpqtKABo5yTqWRYqHKDHyPvsNKvRumWSE1JeRnX8gj1urlCLvy-HDy1Op5tojz2fQ3PmZz8g2h490XQripq_oTTCSQgI1hhbFGDQTSQrhgv0o',
   },
   {
     title: 'Python Penetration Testing: File Transfers Using Google API',
@@ -105,7 +105,7 @@ const publications: Publication[] = [
     tags: ['Python', 'Google API', 'Data Exfiltration', 'Cloud Security'],
     url: 'https://infosecwriteups.com/python-penetration-testing-file-transfers-using-google-api-c4abf43fbcf1',
     category: 'python',
-    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xW5c5v9Dx_WN5-qdc8WEb3w9gmznqRddqwHzNe4Nklcc8lAKw5Y-_OFRK55DeAVTQZD9gQFfWBU0Kl5QBLgWOTx536IzII9cwdvcmUnzxict4BY3RqwvxhObo0ONYS_j3oAkNN3ZD2NdkY',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xVEV8txRGY5HbyJ7JILkuXglBKSDjM1Arf-t_QRPydgbs_2k6_C-3Ys7AWy47NNrmIDlYnT_nzIKnjdOBTw1zepibUOyqVqM_VpMvXhzI6Azm6TopN5hAaHq5xakNnTQLAeXCnYXk_VgUE',
   },
   {
     title: 'Python Penetration Testing: Escaping the Matrix',
@@ -115,7 +115,7 @@ const publications: Publication[] = [
     tags: ['Python', 'GitHub', 'Data Exfiltration', 'Git Security'],
     url: 'https://infosecwriteups.com/python-penetration-testing-escaping-the-matrix-4180874da1b5',
     category: 'python',
-    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xUww8m84vheCej7epWOBSf6KG9zhYo2K9a7eL7ggDg7eKZ3Ywcz-TehdGrndp88IoSnePnTdzyv3DiqwSc2icM5nVhPqDX0LBU_5RiYjSsR2m04Ca2PXElxFf3qa8KVTi4a8ijVLJb2QkA',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xUlUqi_Q27WUBqKMGHQH9QIqtTCE6B1c_sNRUtYuOHhJ_oDqpjtej-zldsMr9RjPEBTTRuZhUKZsCU8OYKkVr3lSqXLKiuUuBEIvUSL6zG7G5Wp0sU6EML6YGOKsLWoFvZlAtHOid_Vyig',
   },
   {
     title: 'Python Penetration Testing: I Can\'t CONTAIN Myself',
@@ -125,7 +125,7 @@ const publications: Publication[] = [
     tags: ['Python', 'Docker', 'Containers', 'DevSecOps'],
     url: 'https://infosecwriteups.com/python-penetration-testing-i-cant-contain-myself-409a9d1e20e9',
     category: 'python',
-    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xXBN2FDxLHaiWKHBLTmzydG-dzdKLq-J93C7Kzoog2Tx0-D5A62hvbtfm2rAVYtjJt_kBGeXd2a8BtU86oC4Sm9kGe_Rq9Kj9w0a2c622qIZYqhmuPRxt1xIKP-iczYbZr-yTQEolspGL8',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xWcJvtm5flRlXNy2Gn2vzKNOSmjSeLva_laPJho-syDiT0cW0hsdIAmhmtiOaDdN-a98Iz4i_Wjqjpdx2amAd4SU383ffrjvlkqZARrMbo-jIf6Zykf9E4KymvKBCQ40g9vQmLnqFi4AO0',
   },
   {
     title: 'Python Penetration Testing: Connecting Multiple SQL Databases',
@@ -135,7 +135,7 @@ const publications: Publication[] = [
     tags: ['Python', 'SQL', 'Database Security', 'SSO'],
     url: 'https://infosecwriteups.com/python-penetration-testing-connecting-multiple-sql-databases-to-gather-juicy-data-cde9c33853d5',
     category: 'python',
-    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xVm1YTjLPThdF952qI0FwwJb-jp05hVTJNrdWN4IKtZDDQ6seh2PYTUpKZtVEe8F3HrLWi7-rLW-HO8_WdP7XmxnN-O1VKvjOB4v7GlC4E1KBVyiRgt_tpN8VBYlJZ4kGjZT94ki9rkyVvG',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xUfz3a3gbUBJ6DgCgw0101tnvylg-XTgVGR6c2i7_GnsvMAWIzhooAXrFPQX07YFzVqcqqIUCNMLKL5hVFjGGRdbD8KtoxYbR3gSCDz1MnBYG4EMPM2znRf-OXX18idquWUAPMOyju94Ex6',
   },
   {
     title: 'Python Penetration Testing: SQL and Destroy',
@@ -145,7 +145,7 @@ const publications: Publication[] = [
     tags: ['Python', 'SQL', 'Network Discovery', 'Database Security'],
     url: 'https://systemweakness.com/python-penetration-testing-sql-and-destroy-eeed9b70dea2',
     category: 'python',
-    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xVl6ZABtYegkMHak8ByEDv5BVtYyuzFnlZBBD5vetRRqHsKjnBExpMZr-_83OHX73ESU8hd1CQ-GJ2tROetMJ8AfSdPoT9XwjsH26LPgaLIyiySQ_ngv4Mn8TumEaIlqX3ON4idJ947o595',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xWuMGJU63zX-ZvVTVjPtmlLuGg7gMRdFjL8BiuzgQHDMcgrjwWgsefe37SLYzv2XmIGvpGWri2Bz6W4aDa5FMzXZP8dvMPVdAe4cYhCq0F3y9KZ3kJDriSN-o6QmNiiA0WeK0waj7KXAOBD',
   },
   {
     title: 'Python Penetration Testing: Sharing is Caring',
@@ -155,7 +155,7 @@ const publications: Publication[] = [
     tags: ['Python', 'SMB', 'Network Security', 'File Shares'],
     url: 'https://faun.pub/python-penetration-testing-sharing-is-caring-20fe6bdce965',
     category: 'python',
-    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xVy6k4274Rt4nlYBWqiiUeIZ7dh6jIFSiBvDlW_LEyMGu6tj4FgmN6av5b6xwxkaQlST9obh_hgb__Tr9cY2-diKHJXLsI2xu6Qef6VTBZe_OWjystgqIopZMNKablkgDD6iVBSGOpViA',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xWStyisdaKU3EA6R3T4U8jpGeKONiDQdKiol9ER0p0O_GdCL3jzdyt6Yr2W2fLeHbxaGuc0DrdgH6tef2KMgKtGVQjzbQKsEGId600OqNZb75fnr4fpwnG9Jb7o-uI4hq940XJgbHP7pQ',
   },
   {
     title: 'Python Penetration Testing: Remotely Listing Services',
@@ -165,7 +165,7 @@ const publications: Publication[] = [
     tags: ['Python', 'Service Discovery', 'Windows', 'Linux'],
     url: 'https://systemweakness.com/python-penetration-testing-remotely-listing-services-5d46228d4d3f',
     category: 'python',
-    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xUBTJKWK1SnJLR0mCPlGDSBuGa-TbwD7nlM2KMbld-j7H9cE_JqQau0j4frlGrpZSQ2tJrmsiZcZjpg9pEitGXH2lKmwg97mUWQQVyta3rMSvXkIYouhAG5XrV3Ld3sXWNI23YLXMCbyw',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xUsagXqO_yW8jLQHJ_ySDQMwM3VK6aHK47KoqeOyoG4uK_hzV4IweiG1-9vqnVO-8k2VzbSpbd39Wcb2YXehYdrRl4vqwKn9LUfPeZNQ8b-Vjtgi25JIe_KB7BbmJJVzCCMetu4WMBEPQ',
   },
   {
     title: 'Python Penetration Testing: Discovering Obfuscated Web Applications',
@@ -175,7 +175,7 @@ const publications: Publication[] = [
     tags: ['Python', 'Web Security', 'Reconnaissance', 'OSINT'],
     url: 'https://systemweakness.com/python-penetration-testing-discovering-obfuscated-web-applications-c759a865534b',
     category: 'python',
-    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xU1G5F41bf0aomtywgJarxeOUbLwS_y17RlPYL6uauWitU8iMxL8XKlef9pWJunj-3FJZ5TiaCNaQ_lZroWRT8cfKDoUjhMxQS2wsxOsX6tt_1QjzVpVRPaAQMGGZgw8bwUIYWBT98ktQ',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xXzFGM3j8OJoHiIuOvduCVpaUDsa8G0Vrw9YI3wgcNiCKFjJNBLS_5JHfN-l04n6EWMa6GD54dmlgCvahrZFLsuppKyladQO_lpakZDgXiHtZhubGLs0aS9RPQGoVlV_oF2FNK6CcHa1Q',
   },
   {
     title: 'Python Penetration Testing: Using Hashcat and Python to Crack Passwords',
@@ -185,7 +185,7 @@ const publications: Publication[] = [
     tags: ['Python', 'Hashcat', 'Password Cracking', 'Authentication'],
     url: 'https://systemweakness.com/python-penetration-testing-using-hashcat-and-python-to-crack-windows-passwords-34cb4f052bf3',
     category: 'python',
-    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xWVMz0c6kPFWXXJywMgyZUXsJzZAWY_kKrnaUmwSNJxL89QIDrPHvJ2MG4gCBLP3hqjpQ6dyZ1CwonPMpLzfYGsa9bAcQ2xD9Wqvb4xRgH2Hn5yGv5OYaDpvI4hnhmPXS6DjT2daop53e4',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xXjIinnHBcfwYxtjpscBKY0CX0XeE4bhBq11mB57SRX3T7RLdCedHV-nqVlj7qUdip3LNLJQutkNbPxSmvFiXcZmHFOc3oRjUCq_0Za43udhIuAXKR7h67Hgmyz9SV8YatOsOZvNgs3uPg',
   },
   {
     title: 'Python Penetration Testing: Extracting Contact Information from Outlook',
@@ -195,7 +195,7 @@ const publications: Publication[] = [
     tags: ['Python', 'Outlook', 'OSINT', 'Social Engineering'],
     url: 'https://systemweakness.com/python-penetration-testing-extracting-contact-information-from-outlook-2bac232b22a9',
     category: 'python',
-    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xXVY9t0nHKglWGgkOksS5CvRS1HRCOgqGDW7nZz858sofmipp7OXGt_ps1IBMYswPbNNKO3Z8Xk2NlW6yp4eLCB1QJZZXdr_pqBM6BrwDC-DnEFcAYY1j7GrqPkgFT7QYtEK_XumOLq8A',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xVMNC40vALyDgZm-bn1gyt15A7Oa74Gncn05fE4M8yBNaMiqlvQ6A9UJS-7g9uZjrQb0uEwc1OCcxSb76G1HNQ-vjv7Oo2GC1wh4KNxYUz9Ep6hPgnleZ_QiNCO8FxEc85waFAOwbYclA',
   },
   {
     title: 'Python Penetration Testing: Running Multiple Scripts Simultaneously',
@@ -205,7 +205,7 @@ const publications: Publication[] = [
     tags: ['Python', 'Automation', 'Parallel Execution', 'Efficiency'],
     url: 'https://systemweakness.com/python-penetration-testing-running-multiple-scripts-on-multiple-devices-simultaneously-1554109ff09c',
     category: 'python',
-    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xWMaa2E-vy-JNANpKCMqc1CGqDSo-1hEVtvy4PO5J0kaBchaugHIqrn5-spU77LXvqLneRmIJQbH3Yw0itouD36Es_5rbm0eO1zISjN35UplU5Nf7XRYoj5_7FYRhjiFJ9mf8Cyxa9DaCNy',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xWq_gIa8_oqkjTjLXByF1gtItn5PD18ekS1m_s_Qf9FFeGv12Ysdkraz6D5H8S9oj6ZQRxfQr1LGa-OjHwbv9fI9GhDNFRvlEVHIlujJ9Okh609999zQU3bBM7wRUoOXRyTczICBjTMFg2C',
   },
   {
     title: 'Python Penetration Testing: Capturing and Filtering Web Application Packets',
@@ -215,7 +215,7 @@ const publications: Publication[] = [
     tags: ['Python', 'Packet Analysis', 'Network Security', 'Credential Harvesting'],
     url: 'https://systemweakness.com/python-penetration-testing-capturing-and-filtering-web-application-packets-to-harvest-credentials-e737a87374db',
     category: 'python',
-    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xV8Ayer-cuGlfMq7YHQyMkGb45QZunhvIri6mnGzqrbeUkF0zxQA-lgrm23brc6jvsztGWQ558Yzv3_0u-9mS_8Xa2Yrt6B3frxasAnBbDD_PW8O6FSwdJK6j3emp6ED0V4dKNGFi9LIPI',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xWD4FZhy_PdOkzW60-KIyd00swnrGpk2pEC5_7zClpteEu7bITCte5ZLAdoPlNYUzsETOZUn1MvRKNdBkvfhjiE3x91TNfNhTHul4-oyyOzBJrksNee67yzAT1K0C93Hmrrv7rBiBwmsPk',
   },
   // Security Tools & Integration
   {
@@ -226,7 +226,7 @@ const publications: Publication[] = [
     tags: ['Splunk', 'Knowbe4', 'SIEM', 'Integration'],
     url: 'https://medium.com/@ekiser_48014/knowbe4-to-splunk-33c5bdd53e29',
     category: 'tools',
-    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xXi0Gv-fUOJ0_Drv-L6Ad-7pwC1DDulHYWZO1WFzO5wE6dcwetd3a_bXvGbmlmMx6-oFsKJP-6j1mgms2ynaG0bFY6d5EhjT0YQ14toOK8anTjRweTQ7sPCsC5hVbyfAQ_SMsVDQdRUqZIC',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xUCh2a2R-s6KDjzxAZ6mp-6M2mFFYhd8lBw7hzcijZRMDs4NyVTv2ylLqIKU0X9ms2j3bXVYOKNJ6G9g-Y24QJLvYQDZJ2Ow-shrvnA2cIeA6yyxzwEOXSzbTBzvnZz5qN8iAJTGxjklCZ_',
   },
   {
     title: 'How I Move Web App Data to Splunk using HEC Tokens',
@@ -236,7 +236,7 @@ const publications: Publication[] = [
     tags: ['Splunk', 'HEC Tokens', 'Data Integration', 'PhishER'],
     url: 'https://infosecwriteups.com/how-i-move-web-app-data-to-splunk-using-hec-tokens-ec371a298e58',
     category: 'tools',
-    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xUt-UkUclJXU16Nw0gqq1O0fYqNa79kNT6fsi8NBugMXQCTV-5srDjWzxchPv954qhvrL8JAQjhhZTUI4Co-ZFJLbaHTxBrwDTgoh_MVI3TS_dD7SoFN2BpV62suQDJPtHTqyVSUegFVDM',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xWe0bjk2pHvMg9vO9GxIIW0KUBm8boF9NpGLOtHqLL5JdS-3_5ZHTEEuvp6kJrBNSaMKm0yxp52yCCqCh3YQ7FXraRQh1dGRI1d3XFTpSI0t0pczUZ2Vk5TT7isn44YyCpoJIY03zRUSCc',
   },
   {
     title: 'Vulnerability Management Tool Review: Tenable.io',
@@ -246,7 +246,7 @@ const publications: Publication[] = [
     tags: ['Tenable', 'Vulnerability Management', 'Tool Review', 'Security'],
     url: 'https://medium.com/@ekiser_48014/vulnerability-management-tool-review-tenable-io-71a249426e3e',
     category: 'tools',
-    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xVm6-1yAQ1YNsSW3pijxaiQ40oXlu857MLsCcHcLx2WQXwobdRzv3E0ChbOlKucbIzNBSlza5Y5YhyxchWbGnWLfV3i9jodbwbjw1Fk-CuTgza12fWaL9osSzdoly7CcrlZh3eTM1TJ46B_',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xXiE0SGETFLLAMsNPpJTuv4t0vLJyn9roKlxzb3LU4v8LCV5CYySIvfygPdMm0Npsg8M_J4t0hLhLPmyI7V3DnZ5itputy6Vb2B7LCJEiYg0C_odr1ellv7UropyPdIofiQfi2O91w6BQmq',
   },
   {
     title: 'Cyber Incident Response Workflow Diagraming Tools',
@@ -256,7 +256,7 @@ const publications: Publication[] = [
     tags: ['Incident Response', 'Tools', 'Workflow', 'Documentation'],
     url: 'https://medium.com/@ekiser_48014/cyber-incident-response-workflow-diagraming-tools-7ca4a2445bb2',
     category: 'tools',
-    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xX3UpXnAz2HPlPgmkF76wkkyIFyv42MahiXgzd94uNhq1wUhR1ICkdDaVIawQsOmnDdvggRMbEX2cCWAX2kfFsT9Q_T9_r8v4yFTmb3tFabFdiZg1fKxEkNOFrRyNTc8avYAlphG9yau-qy',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xUvrFt1jhyiwQzA7LU1lS8wBvbJcxS06IUbc5732PxKpNlcjEOF4PJ-tRk68-Vops237Ebl1aVLmzL569kjnhT27tRLiqdXavIQkaylqJL_MFXQ7Q9tFIDmS7-NvIhim7JCnxnCSK3Xt4g-',
   },
   // Security Management & Strategy
   {
@@ -267,7 +267,7 @@ const publications: Publication[] = [
     tags: ['Privilege Escalation', 'Local Admin', 'Least Privilege', 'Security'],
     url: 'https://infosecwriteups.com/exploiting-local-admin-access-dfb42eddf5d2',
     category: 'security',
-    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xV8U_NRdkXDcKY6rL8fnQAAKdmz5GfUUQtymnSLOM4DNxIKAN3htCJH463DAxUJ4BHvX7-yPm99wBeifxDmhPfjAfN9BE7onqshaIRCPoRYlm_sVypGNCsZ_GMRBhWwjB8Iw0JYhpr41oc2OQ',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xU-IXLs6fPXCc3gYHfvN-j1tHkQH9X_YFqJjegxIQWweANL1HHDEOefYWdsW4uL-AlsHOa2B6RsR2Ab5VmJHQfs4mgO2A7co47t3_tm0vlRwkZJhF4thp6YWJxYoVdjmBkLUMDlT3CWMFKieQ',
   },
   {
     title: 'Creating a Vulnerability Management Policy',
@@ -277,7 +277,7 @@ const publications: Publication[] = [
     tags: ['Policy', 'Vulnerability Management', 'Governance', 'Compliance'],
     url: 'https://medium.com/@ekiser_48014/creating-a-vulnerability-management-policy-92178e7cbedc',
     category: 'security',
-    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xUp9UayhJYdvdSdc4ySgmoxQSURh3o0orhmjlB7mWynIWSL6YuQ6eym6f4OTz91Y1sOVLyh6vW1iVI3wwJIkP8DCsOMNnXyFEvVlQzU0tQ2PzFm1TDlKyjyq289ejq2lG6azk2at5iNgchj',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xVlC_5MWB69oCg_dbPcJfe9ssnjZY1rvn-svkpeDZaPcLn-LHAZKUpklNAfngFKLkH688dz-FZfMEg03V4fH1ZqH1_-jUX0PL9WDAHWA0eOaNu3OwMppnSnDEeb15sfBAzcjY91I6Yw-A1S',
   },
   {
     title: 'Integrating Vulnerability Management into the Risk Management Strategy',
@@ -287,7 +287,7 @@ const publications: Publication[] = [
     tags: ['Risk Management', 'Vulnerability Management', 'Strategy', 'GRC'],
     url: 'https://medium.com/@ekiser_48014/integrating-vulnerability-management-into-the-risk-management-strategy-46e323e6479d',
     category: 'security',
-    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xWEsWCrYvUsRC9pPC2VeWCRwje-Xhljeoy8iUekm_vwP7q2-ahaKbz7K4AIdjpGdtn-IEfy8k1SEOKRPjJ-lfUVnCHHqoBCW5r1poYWyOU0TDsCxyZgHxs9bxKjwFCxXXfbeLcSnTd4-KQ',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xXwKY6_lwMKXT6PQ6i8zuvKyz0qRFEqUh5CxxwDESAgkBFgvb-wGRkwce-JfodOAtuoZnta-xie-Cw_c5CNj7ezrOlJtdpFi1ar4kXaLv4j1mVUW-lOULDuwCrLvmHiVrOjLYkLCJ6zAoU',
   },
   {
     title: 'Agile VS Waterfall',
@@ -297,7 +297,7 @@ const publications: Publication[] = [
     tags: ['Project Management', 'Agile', 'Waterfall', 'MFA Implementation'],
     url: 'https://faun.pub/agile-vs-waterfall-7b1ca6326ddd',
     category: 'general',
-    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xWm3_30Elcsbe3O39P7RwDv3C2O54hC03WkMI_4dJ91DhhJxExtUHEh_mooJbt-dOkySW31MGgWwM_cn2IcPWA09206HzrXSRWK4zSuVGuXVUYRU5JkzVSrFiq4gsjKXIPxdIg8u6UhRye3',
+    image: 'https://lh3.googleusercontent.com/docsubipk/AP9E6xXCQ9yIcu8847sRyg1lP0waJUHzsHATd8Io7ESpCRv8fuwjR8EkS18Jiz5gPwSJFijMR2_vbQZZ4a9n9Bwl8_Jhrf4gHzpVWJWZ4WZQP7I3-tncBNuJqR2qFYhE7DapxtJ0lAGIVhfbbb2h',
   },
   // Career & Industry
   {
