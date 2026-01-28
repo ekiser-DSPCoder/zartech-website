@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Risk Radar - Zartech',
-  description: 'Risk Radar - Enterprise risk quantification and security assessment tool by Zartech.',
+  title: 'Risq Radar - Zartech',
+  description: 'Risq Radar - Enterprise risk quantification and security assessment tool by Zartech.',
 };
 
 export default function RiskRadar() {
@@ -12,7 +12,7 @@ export default function RiskRadar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="section-heading mb-4">Risk Radar</h1>
+          <h1 className="section-heading mb-4">Risq Radar</h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Enterprise risk quantification and security assessment platform
           </p>
@@ -35,7 +35,7 @@ export default function RiskRadar() {
 
             <div className="space-y-6 text-blue-100 mb-10">
               <p>
-                Risk Radar is a comprehensive risk quantification tool designed to help organizations
+                Risq Radar is a comprehensive risk quantification tool designed to help organizations
                 understand, measure, and prioritize their cybersecurity risks using industry-standard
                 methodologies and data-driven analysis.
               </p>
@@ -103,7 +103,7 @@ export default function RiskRadar() {
                 className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium bg-white text-indigo-600 rounded-lg shadow-lg hover:bg-indigo-50 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl"
               >
                 <span className="flex items-center gap-2">
-                  Launch Risk Radar
+                  Launch Risq Radar
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                   </svg>
