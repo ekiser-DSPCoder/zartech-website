@@ -6,6 +6,15 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center justify-center hero-section">
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+          <div className="animate-fade-in-up mb-8">
+            <div className="w-40 h-40 md:w-48 md:h-48 mx-auto rounded-full overflow-hidden border-4 border-white shadow-2xl">
+              <img
+                src="/eric-kiser.jpeg"
+                alt="R. Eric Kiser"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
           <div className="animate-fade-in-up">
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
               <span className="gradient-text">R. Eric Kiser</span>
