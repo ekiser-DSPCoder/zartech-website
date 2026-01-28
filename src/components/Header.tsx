@@ -17,7 +17,7 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 backdrop-blur-xl bg-indigo-950/80 border-b border-purple-500/20">
+    <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-indigo-100 shadow-sm">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
@@ -38,8 +38,8 @@ export default function Header() {
                   href={item.href}
                   className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 ${
                     isActive
-                      ? 'bg-gradient-to-r from-indigo-500 to-purple-600 text-white shadow-lg shadow-purple-500/25'
-                      : 'text-purple-200 hover:text-white hover:bg-purple-500/20'
+                      ? 'bg-gradient-to-r from-indigo-600 to-purple-600 text-white shadow-md'
+                      : 'text-gray-700 hover:text-indigo-600 hover:bg-indigo-50'
                   }`}
                 >
                   {item.name}
@@ -51,7 +51,7 @@ export default function Header() {
           {/* Mobile menu button */}
           <button
             type="button"
-            className="md:hidden p-2 rounded-lg text-purple-200 hover:text-white hover:bg-purple-500/20 transition-colors"
+            className="md:hidden p-2 rounded-lg text-gray-600 hover:text-indigo-600 hover:bg-indigo-50 transition-colors"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -77,7 +77,7 @@ export default function Header() {
 
         {/* Mobile Navigation */}
         {mobileMenuOpen && (
-          <div className="md:hidden py-4 border-t border-purple-500/20 animate-fade-in-up">
+          <div className="md:hidden py-4 border-t border-indigo-100 animate-fade-in-up">
             <div className="flex flex-col space-y-2">
               {navigation.map((item) => {
                 const isActive = pathname === item.href;
@@ -88,8 +88,8 @@ export default function Header() {
                     onClick={() => setMobileMenuOpen(false)}
                     className={`px-4 py-3 rounded-lg text-base font-medium transition-all duration-300 ${
                       isActive
-                        ? 'bg-gradient-to-r from-indigo-500 to-purple-600 text-white shadow-lg'
-                        : 'text-purple-200 hover:text-white hover:bg-purple-500/20'
+                        ? 'bg-gradient-to-r from-indigo-600 to-purple-600 text-white shadow-md'
+                        : 'text-gray-700 hover:text-indigo-600 hover:bg-indigo-50'
                     }`}
                   >
                     {item.name}

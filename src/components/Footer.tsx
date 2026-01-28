@@ -33,28 +33,28 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="relative border-t border-purple-500/20 bg-indigo-950/50 backdrop-blur-xl">
+    <footer className="bg-gradient-to-r from-indigo-600 via-purple-600 to-purple-700 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
-            <Link href="/" className="text-2xl font-bold gradient-text">
+            <Link href="/" className="text-2xl font-bold text-white">
               Zartech
             </Link>
-            <p className="mt-4 text-purple-300/60 text-sm">
+            <p className="mt-4 text-indigo-100 text-sm">
               Protecting organizations and educating security professionals for over a decade.
             </p>
           </div>
 
           {/* Navigation */}
           <div>
-            <h3 className="text-purple-100 font-semibold mb-4">Navigation</h3>
+            <h3 className="text-white font-semibold mb-4">Navigation</h3>
             <ul className="space-y-2">
               {footerLinks.map((link) => (
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="text-purple-300/60 hover:text-purple-200 transition-colors text-sm"
+                    className="text-indigo-100 hover:text-white transition-colors text-sm"
                   >
                     {link.name}
                   </Link>
@@ -65,7 +65,7 @@ export default function Footer() {
 
           {/* Social */}
           <div>
-            <h3 className="text-purple-100 font-semibold mb-4">Connect</h3>
+            <h3 className="text-white font-semibold mb-4">Connect</h3>
             <div className="flex space-x-4">
               {socialLinks.map((link) => (
                 <a
@@ -73,23 +73,23 @@ export default function Footer() {
                   href={link.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-10 h-10 rounded-lg bg-purple-500/20 flex items-center justify-center text-purple-300 hover:text-white hover:bg-purple-500/40 transition-all icon-animated"
+                  className="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center text-white hover:bg-white/20 transition-all icon-animated"
                   aria-label={link.name}
                 >
                   {link.icon}
                 </a>
               ))}
             </div>
-            <p className="mt-4 text-purple-300/60 text-sm">
-              <a href="mailto:ekiser@zartech.info" className="hover:text-purple-200 transition-colors">
+            <p className="mt-4 text-indigo-100 text-sm">
+              <a href="mailto:ekiser@zartech.info" className="hover:text-white transition-colors">
                 ekiser@zartech.info
               </a>
             </p>
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-purple-500/20">
-          <p className="text-center text-purple-400/50 text-sm">
+        <div className="mt-12 pt-8 border-t border-white/20">
+          <p className="text-center text-indigo-200 text-sm">
             &copy; {currentYear} Zartech. All rights reserved.
           </p>
         </div>

@@ -4,8 +4,8 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'R. Eric Kiser - Cybersecurity Professional',
-  description: 'Certified Information Security Manager with 10+ years of experience in cybersecurity, penetration testing, and security education.',
+  title: 'Zartech - R. Eric Kiser',
+  description: 'Personal website of R. Eric Kiser - Cybersecurity Professional & Technical Writer',
 };
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="min-h-screen flex flex-col tech-background noise-overlay">
+      <body className="min-h-screen flex flex-col bg-white">
         <Header />
         <main className="flex-grow">{children}</main>
         <Footer />
