@@ -11,7 +11,8 @@ export default function Home() {
               <img
                 src="/eric-kiser.jpeg"
                 alt="R. Eric Kiser"
-                className="w-full h-full object-cover object-top"
+                className="w-full h-full object-cover"
+                style={{ objectPosition: 'center 15%' }}
               />
             </div>
           </div>
