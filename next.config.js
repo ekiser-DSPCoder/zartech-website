@@ -12,6 +12,15 @@ const nextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: '/riskradar',
+        destination: '/risqradar',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;

@@ -15,6 +15,11 @@ const skills = [
 const timeline = [
   {
     year: 'Present',
+    title: 'Co-Owner & Chief Technology Officer - DSPLife Collaborative Group',
+    description: 'Co-owner setting technology strategy and leading the security and engineering direction of the firm.',
+  },
+  {
+    year: 'Present',
     title: 'Manager, IT Security - The Heritage Group',
     description: 'Leading information technology security initiatives and protecting organizational assets.',
   },
@@ -66,6 +71,11 @@ export default function About() {
                 IT Shared Services supporting 50+ team members across multiple business units.
               </p>
               <p>
+                I&apos;m also a co-owner and the Chief Technology Officer of DSPLife Collaborative Group,
+                where I set technology strategy and lead the security and engineering direction of the
+                business.
+              </p>
+              <p>
                 My expertise spans risk assessments, vulnerability management, incident response, and
                 penetration testing. I&apos;ve guided organizations through complex compliance requirements
                 including DFARS, NIST 800-171, and CMMC frameworks.
@@ -112,7 +122,7 @@ export default function About() {
           <h2 className="section-heading text-center mb-12">My Journey</h2>
           <div className="max-w-3xl mx-auto">
             {timeline.map((item, index) => (
-              <div key={item.year} className="relative pl-8 pb-8 last:pb-0 animate-fade-in-up" style={{ opacity: 0, animationDelay: `${0.2 + index * 0.15}s` }}>
+              <div key={item.title} className="relative pl-8 pb-8 last:pb-0 animate-fade-in-up" style={{ opacity: 0, animationDelay: `${0.2 + index * 0.15}s` }}>
                 {/* Line */}
                 {index !== timeline.length - 1 && (
                   <div className="absolute left-[11px] top-6 bottom-0 w-0.5 bg-gradient-to-b from-indigo-500 to-purple-500" />

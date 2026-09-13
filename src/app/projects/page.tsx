@@ -17,12 +17,12 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: 'Risq Radar',
+    title: 'RisqRadar',
     description:
-      'Enterprise risk quantification platform that helps organizations understand, measure, and prioritize cybersecurity risks using industry-standard methodologies and data-driven analysis for informed decision-making.',
-    tags: ['Risk Quantification', 'Security Assessment', 'ROI Analysis', 'Executive Reporting'],
+      'Cyber risk quantification and GRC platform that turns controls, vulnerabilities, vendors, and audit posture into one financial model of loss. Monte Carlo loss-exceedance modeling, a control library spanning 14+ cyber, privacy, and industrial-safety frameworks, third-party risk management, and audit-ready evidence in a single platform.',
+    tags: ['Risk Quantification', 'GRC', 'Audit Readiness', 'TPRM', 'Executive Reporting'],
     featured: true,
-    demo: 'https://riskradar.zartech.info',
+    demo: 'https://www.risqradar.com',
   },
   {
     title: 'Advanced Ethical Hacking Courseware',

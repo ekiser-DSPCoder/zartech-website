@@ -4,7 +4,7 @@ const footerLinks = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '/about' },
   { name: 'Projects', href: '/projects' },
-  { name: 'Risq Radar', href: '/riskradar' },
+  { name: 'RisqRadar', href: '/risqradar' },
   { name: 'Publications', href: '/publications' },
   { name: 'Contact', href: '/contact' },
 ];
