@@ -242,14 +242,14 @@ export default function RisqRadar() {
   return (
     <div className="tech-bg circuit-overlay">
       {/* Hero Section */}
-      <section className="py-20 relative z-10">
+      <section className="pt-14 pb-8 relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-8">
-            <h1 className="section-heading mb-4">RisqRadar</h1>
-            <p className="text-2xl md:text-3xl font-semibold text-gray-700 mb-4">
+          <div className="text-center">
+            <h1 className="section-heading mb-3">RisqRadar</h1>
+            <p className="text-2xl md:text-3xl font-semibold text-gray-700 mb-3">
               Cyber risk in dollars, not guesswork.
             </p>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-7">
               RisqRadar turns your controls, vulnerabilities, vendors, and audit posture into one
               financial model of loss — so you can tell the board how much risk you carry, which fix
               buys the most reduction per dollar, and prove it to an auditor.
@@ -267,7 +267,7 @@ export default function RisqRadar() {
                 </svg>
               </span>
             </a>
-            <p className="mt-6 text-sm text-gray-500 font-mono">
+            <p className="mt-5 text-sm text-gray-500 font-mono">
               CRQ engine · 14+ frameworks · TPRM · audit-ready
             </p>
           </div>
@@ -275,9 +275,9 @@ export default function RisqRadar() {
       </section>
 
       {/* The Problem */}
-      <section className="py-8 relative z-10">
+      <section className="py-6 relative z-10">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="card p-8 lg:p-12">
+          <div className="card p-8 lg:p-10">
             <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
               Heat maps don&apos;t survive a board meeting.
             </h2>
@@ -296,16 +296,16 @@ export default function RisqRadar() {
       </section>
 
       {/* Four Pillars */}
-      <section className="py-16 relative z-10">
+      <section className="py-12 relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-heading text-center mb-4">One Platform, Four Jobs</h2>
-          <p className="text-gray-600 text-center mb-12 max-w-3xl mx-auto">
+          <p className="text-gray-600 text-center mb-10 max-w-3xl mx-auto">
             Quantify the risk. Prove the compliance. Govern the exceptions. Watch the edges. Every
             module feeds the same graph, so evidence, controls, and dollars are reused across the
             business — never re-entered.
           </p>
 
-          <div className="grid lg:grid-cols-2 gap-8">
+          <div className="grid lg:grid-cols-2 gap-6">
             {pillars.map((pillar) => (
               <div key={pillar.number} className="card p-8">
                 <div className="flex items-start gap-4">
@@ -335,14 +335,14 @@ export default function RisqRadar() {
       </section>
 
       {/* QRM Methodology */}
-      <section className="py-16 relative z-10">
+      <section className="py-12 relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="card p-8 lg:p-12">
-            <h2 className="text-2xl md:text-3xl font-bold text-white mb-8 text-center">
+          <div className="card p-8 lg:p-10">
+            <h2 className="text-2xl md:text-3xl font-bold text-white mb-6 text-center">
               The QRM™ Methodology
             </h2>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5 mb-10">
               <div className="p-4 rounded-lg bg-white/10 text-center">
                 <div className="w-12 h-12 mx-auto mb-3 rounded-full bg-white/20 flex items-center justify-center">
                   <svg className="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -425,14 +425,14 @@ export default function RisqRadar() {
       </section>
 
       {/* Why RisqRadar */}
-      <section className="py-16 relative z-10">
+      <section className="py-12 relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-heading text-center mb-4">Why RisqRadar</h2>
-          <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
+          <p className="text-gray-600 text-center mb-10 max-w-2xl mx-auto">
             Built to be believed — by the board and the auditor.
           </p>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 gap-6">
             {differentiators.map((item) => (
               <div key={item.title} className="card p-8">
                 <div className="flex items-start gap-4">
@@ -451,10 +451,10 @@ export default function RisqRadar() {
       </section>
 
       {/* Frameworks */}
-      <section className="py-16 relative z-10">
+      <section className="py-12 relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-heading text-center mb-4">Frameworks &amp; Regimes, One Control Library</h2>
-          <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
+          <p className="text-gray-600 text-center mb-10 max-w-2xl mx-auto">
             Map a control once. It counts everywhere it applies — cyber, privacy, and
             industrial-safety regimes alike.
           </p>
@@ -475,10 +475,10 @@ export default function RisqRadar() {
       </section>
 
       {/* Modules */}
-      <section className="py-16 relative z-10">
+      <section className="py-12 relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-heading text-center mb-4">What&apos;s Inside</h2>
-          <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
+          <p className="text-gray-600 text-center mb-10 max-w-2xl mx-auto">
             Every module writes to the same risk graph — an asset, a control, a policy, or a vendor
             is entered once and reused everywhere it matters.
           </p>
@@ -502,10 +502,10 @@ export default function RisqRadar() {
       </section>
 
       {/* AI Features */}
-      <section className="py-16 relative z-10">
+      <section className="py-12 relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-heading text-center mb-4">AI That Guides, Not Replaces</h2>
-          <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
+          <p className="text-gray-600 text-center mb-10 max-w-2xl mx-auto">
             Benchmarks, validation, and narrative at every step — but never a single &quot;correct&quot;
             answer handed down. You remain in control of the estimate.
           </p>
@@ -525,10 +525,10 @@ export default function RisqRadar() {
       </section>
 
       {/* Integrations */}
-      <section className="py-16 relative z-10">
+      <section className="py-12 relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-heading text-center mb-4">Connected to the Tools You Run</h2>
-          <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
+          <p className="text-gray-600 text-center mb-10 max-w-2xl mx-auto">
             Connector credentials are envelope-encrypted per tenant, and you can bring your own keys
             for external scanners.
           </p>
@@ -545,10 +545,10 @@ export default function RisqRadar() {
       </section>
 
       {/* Who It's For */}
-      <section className="py-16 relative z-10">
+      <section className="py-12 relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-heading text-center mb-4">Who It&apos;s For</h2>
-          <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
+          <p className="text-gray-600 text-center mb-10 max-w-2xl mx-auto">
             Made for complex, multi-entity organizations. When you&apos;re accountable for many
             business units, many frameworks, and many vendors, RisqRadar puts the whole picture —
             and its price tag — in one place.
@@ -566,11 +566,11 @@ export default function RisqRadar() {
       </section>
 
       {/* Research Backing */}
-      <section className="py-16 relative z-10">
+      <section className="py-12 relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="section-heading text-center mb-12">Trusted Methodology</h2>
+          <h2 className="section-heading text-center mb-10">Trusted Methodology</h2>
 
-          <div className="grid lg:grid-cols-3 gap-8">
+          <div className="grid lg:grid-cols-3 gap-6">
             <div className="card p-8">
               <h3 className="text-lg font-bold text-white mb-4">Based on Proven Research</h3>
               <blockquote className="border-l-4 border-indigo-400 pl-4 text-blue-100 italic mb-4">
@@ -609,7 +609,7 @@ export default function RisqRadar() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 relative z-10">
+      <section className="py-12 relative z-10">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="card p-12 text-center">
             <h2 className="text-3xl font-bold text-white mb-4">
