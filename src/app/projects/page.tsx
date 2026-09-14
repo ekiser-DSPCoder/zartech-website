@@ -13,6 +13,8 @@ interface Project {
   featured: boolean;
   github?: string;
   demo?: string;
+  /** Makes the whole card clickable. A path opens in-app; a URL opens in a new tab. */
+  href?: string;
 }
 
 const projects: Project[] = [
@@ -23,6 +25,16 @@ const projects: Project[] = [
     tags: ['Risk Quantification', 'GRC', 'Audit Readiness', 'TPRM', 'Executive Reporting'],
     featured: true,
     demo: 'https://www.risqradar.com',
+    href: '/risqradar',
+  },
+  {
+    title: 'DSPLife CareHub',
+    description:
+      'Configurable compliance and operations platform for residential, behavioral health, and community-based service providers. Daily notes, medication administration records, incident reporting, person-centered plans, and compliance dashboards in one system — built around DBHDS regulations and the way providers actually work.',
+    tags: ['Application Design', 'Healthcare Tech', 'EHR', 'Compliance', 'Full Stack Development'],
+    featured: true,
+    demo: 'https://carehub.mydsplife.com',
+    href: 'https://carehub.mydsplife.com',
   },
   {
     title: 'Advanced Ethical Hacking Courseware',
@@ -66,15 +78,31 @@ const projects: Project[] = [
     tags: ['Training', 'Security Awareness', 'Phishing Prevention'],
     featured: false,
   },
-  {
-    title: 'DSPlife\u2122 CareHub',
-    description:
-      'Application design and development for a comprehensive care coordination platform, enabling streamlined communication and resource management for disability service providers.',
-    tags: ['Application Design', 'Healthcare Tech', 'Full Stack Development'],
-    demo: 'https://carehub.mydsplife.com',
-    featured: false,
-  },
 ];
+
+/**
+ * Covers the whole card so a click anywhere on it opens the project. Sits above the
+ * card's decorative layers but below the icon links, which carry their own z-index.
+ */
+function CardLink({ project }: { project: Project }) {
+  if (!project.href) return null;
+
+  const label = `Open ${project.title}`;
+
+  if (project.href.startsWith('/')) {
+    return <Link href={project.href} className="absolute inset-0 z-20" aria-label={label} />;
+  }
+
+  return (
+    <a
+      href={project.href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="absolute inset-0 z-20"
+      aria-label={label}
+    />
+  );
+}
 
 export default function Projects() {
   const featuredProjects = projects.filter((p) => p.featured);
@@ -104,7 +132,8 @@ export default function Projects() {
           </h2>
           <div className="grid lg:grid-cols-2 gap-8">
             {featuredProjects.map((project, index) => (
-              <div key={project.title} className="card p-8 animate-fade-in-up" style={{ opacity: 0, animationDelay: `${0.1 + index * 0.1}s` }}>
+              <div key={project.title} className={`card p-8 animate-fade-in-up ${project.href ? 'cursor-pointer' : ''}`} style={{ opacity: 0, animationDelay: `${0.1 + index * 0.1}s` }}>
+                <CardLink project={project} />
                 <div className="flex items-start justify-between mb-4">
                   <div className="flex items-center gap-3">
                     <div className="w-12 h-12 rounded-xl bg-white/20 flex items-center justify-center flex-shrink-0 animate-float icon-animated" style={{ animationDelay: `${index * 0.3}s` }}>
@@ -114,12 +143,27 @@ export default function Projects() {
                     </div>
                     <h3 className="text-xl font-bold text-white">{project.title}</h3>
                   </div>
+                  <div className="flex items-center gap-2 flex-shrink-0">
+                  {project.href && (
+                    <span
+                      className="w-10 h-10 rounded-lg bg-white/20 flex items-center justify-center text-white flex-shrink-0"
+                      aria-hidden="true"
+                    >
+                      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        {project.href.startsWith('/') ? (
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                        ) : (
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                        )}
+                      </svg>
+                    </span>
+                  )}
                   {project.github && (
                     <a
                       href={project.github}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="w-10 h-10 rounded-lg bg-white/20 flex items-center justify-center text-white hover:bg-white/30 transition-all"
+                      className="relative z-30 w-10 h-10 rounded-lg bg-white/20 flex items-center justify-center text-white hover:bg-white/30 transition-all"
                       aria-label="GitHub"
                     >
                       <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -127,6 +171,7 @@ export default function Projects() {
                       </svg>
                     </a>
                   )}
+                  </div>
                 </div>
                 <p className="text-blue-100 mb-6">{project.description}</p>
                 <div className="flex flex-wrap gap-2">
@@ -156,7 +201,8 @@ export default function Projects() {
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {otherProjects.map((project, index) => (
-              <div key={project.title} className="card p-6 group animate-fade-in-up" style={{ opacity: 0, animationDelay: `${0.3 + index * 0.1}s` }}>
+              <div key={project.title} className={`card p-6 group animate-fade-in-up ${project.href ? 'cursor-pointer' : ''}`} style={{ opacity: 0, animationDelay: `${0.3 + index * 0.1}s` }}>
+                <CardLink project={project} />
                 <div className="flex items-start justify-between mb-3">
                   <div className="w-10 h-10 rounded-lg bg-white/20 flex items-center justify-center animate-float icon-animated" style={{ animationDelay: `${index * 0.2}s` }}>
                     <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -169,7 +215,7 @@ export default function Projects() {
                         href={project.demo}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="w-8 h-8 rounded-lg bg-white/20 flex items-center justify-center text-white hover:bg-white/30 transition-all"
+                        className="relative z-30 w-8 h-8 rounded-lg bg-white/20 flex items-center justify-center text-white hover:bg-white/30 transition-all"
                         aria-label="Live Demo"
                       >
                         <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -182,7 +228,7 @@ export default function Projects() {
                         href={project.github}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="w-8 h-8 rounded-lg bg-white/20 flex items-center justify-center text-white hover:bg-white/30 transition-all"
+                        className="relative z-30 w-8 h-8 rounded-lg bg-white/20 flex items-center justify-center text-white hover:bg-white/30 transition-all"
                         aria-label="GitHub"
                       >
                         <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
