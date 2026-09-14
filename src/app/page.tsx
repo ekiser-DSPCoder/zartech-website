@@ -62,7 +62,7 @@ export default function Home() {
           <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
             Protecting organizations and empowering security professionals
           </p>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Security */}
             <div className="card p-8 text-center group animate-fade-in-up" style={{ opacity: 0, animationDelay: '0.1s' }}>
               <div className="w-20 h-20 mx-auto mb-6 rounded-2xl bg-white/20 flex items-center justify-center animate-float icon-animated">
@@ -102,6 +102,20 @@ export default function Home() {
               <p className="text-blue-100">
                 Sharing cybersecurity insights and knowledge through articles on Medium and
                 industry publications.
+              </p>
+            </div>
+
+            {/* DevSecOps */}
+            <div className="card p-8 text-center group animate-fade-in-up" style={{ opacity: 0, animationDelay: '0.4s' }}>
+              <div className="w-20 h-20 mx-auto mb-6 rounded-2xl bg-white/20 flex items-center justify-center animate-float icon-animated" style={{ animationDelay: '1.5s' }}>
+                <svg className="w-10 h-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                </svg>
+              </div>
+              <h3 className="text-xl font-bold text-white mb-4">DevSecOps</h3>
+              <p className="text-blue-100">
+                Building and shipping secure software, with security built into the pipeline:
+                code review, dependency and secret scanning, and hardened deployments.
               </p>
             </div>
           </div>
