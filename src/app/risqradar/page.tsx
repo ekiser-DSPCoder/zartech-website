@@ -13,10 +13,10 @@ const pillars = [
   {
     number: '01',
     eyebrow: 'Quantify',
-    title: 'Loss, modeled — not colored in',
+    title: 'Loss, modeled, not colored in',
     summary: 'A real quantitative engine, not a scored spreadsheet.',
     points: [
-      'Monte Carlo loss-exceedance simulation — a dollar figure and a probability on every scenario',
+      'Monte Carlo loss-exceedance simulation that puts a dollar figure and a probability on every scenario',
       'Capture actual loss events and backtest the model against them',
       'Estimator calibration and confidence surfaced next to each figure',
       'Risk appetite and tolerance with breach alerts the moment a line is crossed',
@@ -42,10 +42,10 @@ const pillars = [
     title: 'Exceptions with a shelf life',
     summary: 'Waivers that are time-boxed, attested, and re-checked automatically.',
     points: [
-      'Policies mapped to the controls they satisfy — counted as evidence automatically',
+      'Policies mapped to the controls they satisfy, counted as evidence automatically',
       'Compensating controls that actually move the modeled likelihood',
       'Security-exception register with dual attestation and segregation of duties',
-      'Automated recertification — every exception renewed or lapsed on schedule',
+      'Automated recertification, so every exception is renewed or lapsed on schedule',
     ],
     gradient: 'from-green-500 to-teal-600',
   },
@@ -56,7 +56,7 @@ const pillars = [
     summary: 'The edges of your risk, monitored without extra headcount.',
     points: [
       'Vendor register with on-demand external security scans and outbound questionnaires',
-      'New-technology risk assessments — with an ISO 42001 / NIST AI RMF addendum for AI',
+      'New-technology risk assessments, with an ISO 42001 / NIST AI RMF addendum for AI',
       'A regulatory-change monitor that flags a framework when the rules move',
       'Jira and ServiceNow ticketing and a unified notification center, built in',
     ],
@@ -77,7 +77,7 @@ const differentiators = [
     symbol: '$',
     title: 'Dollars, not scores',
     description:
-      'A genuine actuarial-style engine — loss exceedance, calibration, backtesting — so risk is a number you can budget against, not a color you argue about.',
+      'A genuine actuarial-style engine (loss exceedance, calibration, backtesting), so risk is a number you can budget against, not a color you argue about.',
   },
   {
     symbol: '∑',
@@ -89,13 +89,13 @@ const differentiators = [
     symbol: '▣',
     title: 'Evidence-grade access',
     description:
-      'A database-enforced auditor role confines an outside reviewer to exactly the assessment you grant — read-only, and provable, not just hidden in the UI.',
+      'A database-enforced auditor role confines an outside reviewer to exactly the assessment you grant: read-only, and provable, not just hidden in the UI.',
   },
   {
     symbol: '⛨',
     title: 'Secure by construction',
     description:
-      'Per-tenant isolation and envelope-encrypted connector credentials. Bring your own keys for external scanners — your secrets stay yours.',
+      'Per-tenant isolation and envelope-encrypted connector credentials. Bring your own keys for external scanners, so your secrets stay yours.',
   },
 ];
 
@@ -190,7 +190,7 @@ const aiFeatures = [
   {
     title: 'AI Report Narrator',
     description:
-      'Generates board-ready talking points, executive summaries, and Q&A prep. Pick the audience — Board, Executive, Technical, Audit — and get tailored language.',
+      'Generates board-ready talking points, executive summaries, and Q&A prep. Pick the audience (Board, Executive, Technical, Audit) and get tailored language.',
     icon: (
       <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -200,7 +200,7 @@ const aiFeatures = [
   {
     title: 'AI Vulnerability Enrichment',
     description:
-      'Turns a raw scanner finding into a modeled impact — likely exploit path, affected controls, and the QRM factors it moves — instead of another CVSS number.',
+      'Turns a raw scanner finding into a modeled impact: likely exploit path, affected controls, and the QRM factors it moves, instead of another CVSS number.',
     icon: (
       <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 9v2m0 4h.01M5.07 19h13.86c1.54 0 2.5-1.67 1.73-3L13.73 4a2 2 0 00-3.46 0L3.34 16c-.77 1.33.19 3 1.73 3z" />
@@ -210,7 +210,7 @@ const aiFeatures = [
   {
     title: 'AI Compliance Gap Summary',
     description:
-      'Reads coverage across a framework and writes the gap narrative — what is missing, what evidence would close it, and what it is worth in risk reduction.',
+      'Reads coverage across a framework and writes the gap narrative: what is missing, what evidence would close it, and what it is worth in risk reduction.',
     icon: (
       <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
@@ -234,7 +234,7 @@ const audiences = [
   },
   {
     role: 'Business units',
-    description: 'A simple intake for new-technology requests — no login, just a secure link.',
+    description: 'A simple intake for new-technology requests, with no login, just a secure link.',
   },
 ];
 
@@ -251,7 +251,7 @@ export default function RisqRadar() {
             </p>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-7">
               RisqRadar turns your controls, vulnerabilities, vendors, and audit posture into one
-              financial model of loss — so you can tell the board how much risk you carry, which fix
+              financial model of loss, so you can tell the board how much risk you carry, which fix
               buys the most reduction per dollar, and prove it to an auditor.
             </p>
             <a
@@ -287,7 +287,7 @@ export default function RisqRadar() {
               if the auditor shows up Monday?
             </p>
             <p className="text-blue-100">
-              RisqRadar answers all three from a single model —{' '}
+              RisqRadar answers all three from a single model:{' '}
               <strong className="text-white">quantified in currency, backed by evidence, and
               defensible line by line.</strong>
             </p>
@@ -302,7 +302,7 @@ export default function RisqRadar() {
           <p className="text-gray-600 text-center mb-10 max-w-3xl mx-auto">
             Quantify the risk. Prove the compliance. Govern the exceptions. Watch the edges. Every
             module feeds the same graph, so evidence, controls, and dollars are reused across the
-            business — never re-entered.
+            business, never re-entered.
           </p>
 
           <div className="grid lg:grid-cols-2 gap-6">
@@ -415,8 +415,8 @@ export default function RisqRadar() {
                 ALE = (TP × RR) × (IS + (CI × IM))
               </p>
               <p className="text-blue-100">
-                Run through Monte Carlo simulation, it produces a loss-exceedance curve — the
-                expected annual loss and the 1-in-20-year tail — instead of a single flattering
+                Run through Monte Carlo simulation, it produces a loss-exceedance curve: the
+                expected annual loss and the 1-in-20-year tail, instead of a single flattering
                 number.
               </p>
             </div>
@@ -429,7 +429,7 @@ export default function RisqRadar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-heading text-center mb-4">Why RisqRadar</h2>
           <p className="text-gray-600 text-center mb-10 max-w-2xl mx-auto">
-            Built to be believed — by the board and the auditor.
+            Built to be believed by the board and the auditor.
           </p>
 
           <div className="grid md:grid-cols-2 gap-6">
@@ -455,7 +455,7 @@ export default function RisqRadar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-heading text-center mb-4">Frameworks &amp; Regimes, One Control Library</h2>
           <p className="text-gray-600 text-center mb-10 max-w-2xl mx-auto">
-            Map a control once. It counts everywhere it applies — cyber, privacy, and
+            Map a control once. It counts everywhere it applies: cyber, privacy, and
             industrial-safety regimes alike.
           </p>
 
@@ -479,7 +479,7 @@ export default function RisqRadar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-heading text-center mb-4">What&apos;s Inside</h2>
           <p className="text-gray-600 text-center mb-10 max-w-2xl mx-auto">
-            Every module writes to the same risk graph — an asset, a control, a policy, or a vendor
+            Every module writes to the same risk graph. An asset, a control, a policy, or a vendor
             is entered once and reused everywhere it matters.
           </p>
 
@@ -506,7 +506,7 @@ export default function RisqRadar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-heading text-center mb-4">AI That Guides, Not Replaces</h2>
           <p className="text-gray-600 text-center mb-10 max-w-2xl mx-auto">
-            Benchmarks, validation, and narrative at every step — but never a single &quot;correct&quot;
+            Benchmarks, validation, and narrative at every step, but never a single &quot;correct&quot;
             answer handed down. You remain in control of the estimate.
           </p>
 
@@ -550,8 +550,8 @@ export default function RisqRadar() {
           <h2 className="section-heading text-center mb-4">Who It&apos;s For</h2>
           <p className="text-gray-600 text-center mb-10 max-w-2xl mx-auto">
             Made for complex, multi-entity organizations. When you&apos;re accountable for many
-            business units, many frameworks, and many vendors, RisqRadar puts the whole picture —
-            and its price tag — in one place.
+            business units, many frameworks, and many vendors, RisqRadar puts the whole picture,
+            and its price tag, in one place.
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -577,7 +577,7 @@ export default function RisqRadar() {
                 &quot;When people give 90% confidence intervals, they typically contain the true
                 answer only 50-60% of the time.&quot;
               </blockquote>
-              <p className="text-blue-200 text-sm">— Douglas Hubbard, &quot;How to Measure Anything&quot;</p>
+              <p className="text-blue-200 text-sm">Douglas Hubbard, &quot;How to Measure Anything&quot;</p>
             </div>
 
             <div className="card p-8">
@@ -616,7 +616,7 @@ export default function RisqRadar() {
               Stop reporting risk in colors.
             </h2>
             <p className="text-blue-100 mb-8 max-w-xl mx-auto">
-              Book a walkthrough and we&apos;ll model a scenario from your own environment — a
+              Book a walkthrough and we&apos;ll model a scenario from your own environment: a
               loss-exceedance curve, a control-ROI case, and an audit-readiness snapshot in one
               session.
             </p>
