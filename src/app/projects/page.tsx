@@ -37,6 +37,15 @@ const projects: Project[] = [
     href: 'https://carehub.mydsplife.com',
   },
   {
+    title: 'DSPLife TrainingHub',
+    description:
+      'Learning management platform built for DD waiver providers nationwide. Pre-loaded state-specific catalogs for 18 states — Virginia DBHDS, Pennsylvania ODP, Ohio DODD, New York OPWDD, California DDS and more — plus a core DSP catalog everywhere else, with auto-graded assessments, real-time compliance tracking, AI document management, and verifiable certificates.',
+    tags: ['LMS', 'Healthcare Tech', 'Compliance Training', 'Certification', 'Full Stack Development'],
+    featured: true,
+    demo: 'https://traininghub.mydsplife.com',
+    href: 'https://traininghub.mydsplife.com',
+  },
+  {
     title: 'Advanced Ethical Hacking Courseware',
     description:
       'Comprehensive ethical hacking curriculum developed for Virginia Cyber Range, covering penetration testing methodologies, vulnerability assessment, and hands-on security labs utilized by numerous students.',
