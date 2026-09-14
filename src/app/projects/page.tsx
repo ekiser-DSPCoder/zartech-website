@@ -28,7 +28,7 @@ const projects: Project[] = [
     href: '/risqradar',
   },
   {
-    title: 'DSPLife CareHub',
+    title: 'DSPlife™ CareHub',
     description:
       'Configurable compliance and operations platform for residential, behavioral health, and community-based service providers. Daily notes, medication administration records, incident reporting, person-centered plans, and compliance dashboards in one system — built around DBHDS regulations and the way providers actually work.',
     tags: ['Application Design', 'Healthcare Tech', 'EHR', 'Compliance', 'Full Stack Development'],
@@ -37,7 +37,7 @@ const projects: Project[] = [
     href: 'https://carehub.mydsplife.com',
   },
   {
-    title: 'DSPLife TrainingHub',
+    title: 'DSPlife™ TrainingHub',
     description:
       'Learning management platform built for DD waiver providers nationwide. Pre-loaded state-specific catalogs for 18 states — Virginia DBHDS, Pennsylvania ODP, Ohio DODD, New York OPWDD, California DDS and more — plus a core DSP catalog everywhere else, with auto-graded assessments, real-time compliance tracking, AI document management, and verifiable certificates.',
     tags: ['LMS', 'Healthcare Tech', 'Compliance Training', 'Certification', 'Full Stack Development'],
